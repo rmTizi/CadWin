@@ -1,0 +1,65 @@
+# Ignore everything
+*
+
+# But descend into directories
+!*/
+
+# Git Ignore
+!.gitignore
+
+# Preset Files
+!/Settings/CadWin Dark Preset.FCParam
+!/Settings/CadWin Light Preset.FCParam
+
+# Menu Style
+!/Gui/Stylesheets/menu/Cadwin Menu.qss
+
+# Overlay Style
+!/Gui/Stylesheets/overlay/Cadwin * Overlay.qss
+
+# Light Theme
+!/Gui/Stylesheets/CadWin*.qss
+
+# CadWin Files
+!/Gui/Stylesheets/CadWin/*.qss
+!/Gui/Stylesheets/CadWin/Light/**
+!/Gui/Stylesheets/CadWin/Dark/**
+
+# Stitcher
+!/Gui/Stylesheets/CadWin/Stitcher.exe
+
+# Stitcher Source
+!/Gui/Stylesheets/CadWin/Stitcher/**
+
+
+#Ignore thumbnails created by Windows
+Thumbs.db
+#Ignore files built by Visual Studio
+*.obj
+*.exe
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+[Bb]in
+[Dd]ebug*/
+*.lib
+*.sbr
+obj/
+[Rr]elease*/
+_ReSharper*/
+[Tt]est[Rr]esult*
+.vs/
+#Nuget packages folder
+packages/

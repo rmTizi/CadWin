@@ -1,0 +1,814 @@
+/* Icons */
+    /* Controls */
+        /* Basic Input */
+            /* Combo Box */
+                /* Color Styles/Fill Color/Text/Primary */
+                    QComboBox::down-arrow,
+                    _ {
+                        image: url(qss:%%THEME%%/ComboBox/ChevronDownMed-Primary.svg);
+                    }
+
+                /* Color Styles/Fill Color/Text/Secondary */
+                    QComboBox::down-arrow:hover,
+                    _ {
+                        image: url(qss:%%THEME%%/ComboBox/ChevronDownMed-Secondary.svg);
+                    }
+
+                /* Color Styles/Fill Color/Text/Tertirary */
+                    QComboBox::down-arrow:pressed,
+                    _ {
+                        image: url(qss:%%THEME%%/ComboBox/ChevronDownMed-Tertiary.svg);
+                    }
+
+                /* Color Styles/Fill Color/Text/Disabled */
+                    QComboBox::down-arrow:disabled,
+                    _ {
+                        image: url(qss:%%THEME%%/ComboBox/ChevronDownMed-Disabled.svg);
+                    }
+
+            /* Checkbox */
+                /* Accent Styles/Fill Color/Text On Accent/Primary */
+                    QWidget::indicator:checked,
+                    _ {
+                        image: url(qss:%%THEME%%/Checkbox/AcceptMedium-Primary.svg);
+                    }
+
+                    QWidget::indicator:indeterminate,
+                    _ {
+                        image: url(qss:%%THEME%%/Checkbox/Dash12-Primary.svg);
+                    }
+
+                /* Accent Styles/Fill Color/Text On Accent/Secondary */
+                    QWidget::indicator:checked:pressed,
+                    _ {
+                        image: url(qss:%%THEME%%/Checkbox/AcceptMedium-Secondary.svg);
+                    }
+
+                    QWidget::indicator:indeterminate:pressed,
+                    _ {
+                        image: url(qss:%%THEME%%/Checkbox/Dash12-Secondary.svg);
+                    }
+
+                /* Accent Styles/Fill Color/Text On Accent/Disabled */
+                    QWidget::indicator:checked:disabled,
+                    _ {
+                        image: url(qss:%%THEME%%/Checkbox/AcceptMedium-Disabled.svg);
+                    }
+
+                    QWidget::indicator:indeterminate:disabled,
+                    _ {
+                        image: url(qss:%%THEME%%/Checkbox/Dash12-Disabled.svg);
+                    }
+
+            /* Radio Button */
+                /* Accent Styles/Fill Color/Text On Accent/Primary */
+                    QRadioButton::indicator:checked,
+                    QRadioButton::indicator:pressed,
+                    QRadioButton::indicator:checked:pressed,
+                    _ {
+                        image: url(qss:%%THEME%%/RadioButton/Bullet-Primary.svg);
+                    }
+
+        /* Lists & Collections */
+            /* Tree View */
+                /* Color Styles/Fill Color/Text/Primary */
+                    QTreeView::branch:has-children:closed,
+                    _ {
+                        image: url(qss:%%THEME%%/TreeView/ChevronRightMed-Primary.svg);
+                    }
+
+                    QTreeView::branch:has-children:open,
+                    _ {
+                        image: url(qss:%%THEME%%/TreeView/ChevronDownMed-Primary.svg);
+                    }
+
+                /* Color Styles/Fill Color/Text/Secondary */
+                    QTreeView::branch:has-children:closed:pressed,
+                    _ {
+                        image: url(qss:%%THEME%%/TreeView/ChevronRightMed-Secondary.svg);
+                    }
+
+                    QTreeView::branch:has-children:open:pressed,
+                    _ {
+                        image: url(qss:%%THEME%%/TreeView/ChevronDownMed-Secondary.svg);
+                    }
+
+                /* Color Styles/Fill Color/Text/Disabled */
+                    QTreeView::branch:has-children:closed:disabled,
+                    _ {
+                        image: url(qss:%%THEME%%/TreeView/ChevronRightMed-Disabled.svg);
+                    }
+
+                    QTreeView::branch:has-children:open:disabled,
+                    _ {
+                        image: url(qss:%%THEME%%/TreeView/ChevronDownMed-Disabled.svg);
+                    }
+        
+        /* Menus & Toolbars */ 
+            /* Command Bar */
+                /* Color Styles/Fill Color/Text/Primary */
+                    QToolBar > QToolButton::menu-indicator:hover,
+                    _ {
+                        image: url(qss:%%THEME%%/CommandBar/ChevronDownMed-Primary.svg);
+                    }
+
+                    QToolBarExtension:hover,
+                    _ {
+                        background-image: url(qss:%%THEME%%/CommandBar/More-Primary.svg);
+                    }
+
+                /* Color Styles/Fill Color/Text/Secondary */
+                    QToolBar > QToolButton::menu-indicator,
+                    _ {
+                        image: url(qss:%%THEME%%/CommandBar/ChevronDownMed-Secondary.svg);
+                    }
+
+                    QToolBarExtension,
+                    _ {
+                        background-image: url(qss:%%THEME%%/CommandBar/More-Secondary.svg);
+                    }
+
+                /* Color Styles/Fill Color/Text/Tertiary */
+                    QToolBar > QToolButton::menu-indicator:pressed,
+                    _ {
+                        image: url(qss:%%THEME%%/CommandBar/ChevronDownMed-Tertiary.svg);
+                    }
+
+                    QToolBarExtension:pressed,
+                    _ {
+                        background-image: url(qss:%%THEME%%/CommandBar/More-Tertiary.svg);
+                    }
+
+                /* Color Styles/Fill Color/Text/Disabled */
+                    QToolBar > QToolButton::menu-indicator:disabled,
+                    _ {
+                        image: url(qss:%%THEME%%/CommandBar/ChevronDownMed-Disabled.svg);
+                    }
+
+                    QToolBarExtension:disabled,
+                    _ {
+                        background-image: url(qss:%%THEME%%/CommandBar/More-Disabled.svg);
+                    }
+
+            /* Context Menu */
+                /* Color Styles/Fill Color/Text/Primary */
+                    QMenu::indicator:exclusive:checked,
+                    _ {
+                        image: url(qss:%%THEME%%/ContextMenu/Bullet-Primary.svg);
+                    }
+
+                    QMenu::indicator:non-exclusive:checked,
+                    _ {
+                        image: url(qss:%%THEME%%/ContextMenu/Accept-Primary.svg);
+                    }
+
+                /* Color Styles/Fill Color/Text/Secondary */
+                    QMenu::right-arrow,
+                    _ {
+                        image: url(qss:%%THEME%%/ContextMenu/ChevronRight-Secondary.svg);
+                    }
+
+        /* Scrolling */
+            /* Scroll Bar */
+                /* Color Styles/Fill Color/Control Strong/Default */
+                    QScrollBar::up-arrow:hover,
+                    _ {
+                        image: url(qss:%%THEME%%/ScrollBar/CaretUpSolid8-Default.svg);
+                    }
+
+                    QScrollBar::down-arrow:hover,
+                    _ {
+                        image: url(qss:%%THEME%%/ScrollBar/CaretDownSolid8-Default.svg);
+                    }
+
+                    QScrollBar::left-arrow:hover,
+                    _ {
+                        image: url(qss:%%THEME%%/ScrollBar/CaretLeftSolid8-Default.svg);
+                    }
+
+                    QScrollBar::right-arrow:hover,
+                    _ {
+                        image: url(qss:%%THEME%%/ScrollBar/CaretRightSolid8-Default.svg);
+                    }
+
+        /* Text Fields */
+            /* Number Box */
+                /* Color Styles/Fill Color/Text/Primary */
+                    QAbstractSpinBox::up-arrow,
+                    _ {
+                        image: url(qss:%%THEME%%/NumberBox/ChevronUp-Primary.svg);
+                    }
+
+                    QAbstractSpinBox::down-arrow,
+                    _ {
+                        image: url(qss:%%THEME%%/NumberBox/ChevronDown-Primary.svg);
+                    }
+
+                /* Color Styles/Fill Color/Text/Secondary */
+                    QAbstractSpinBox::up-arrow:hover,
+                    _ {
+                        image: url(qss:%%THEME%%/NumberBox/ChevronUp-Secondary.svg);
+                    }
+
+                    QAbstractSpinBox::down-arrow:hover,
+                    _ {
+                        image: url(qss:%%THEME%%/NumberBox/ChevronDown-Secondary.svg);
+                    }
+
+                /* Color Styles/Fill Color/Text/Tertiary */
+                    QAbstractSpinBox::up-arrow:pressed,
+                    _ {
+                        image: url(qss:%%THEME%%/NumberBox/ChevronUp-Tertiary.svg);
+                    }
+                    
+                    QAbstractSpinBox::down-arrow:pressed,
+                    _ {
+                        image: url(qss:%%THEME%%/NumberBox/ChevronDown-Tertiary.svg);
+                    }
+
+                /* Color Styles/Fill Color/Text/Disabled */
+                    QAbstractSpinBox::up-arrow:disabled,
+                    _ {
+                        image: url(qss:%%THEME%%/NumberBox/ChevronUp-Disabled.svg);
+                    }
+                    
+                    QAbstractSpinBox::down-arrow:disabled,
+                    _ {
+                        image: url(qss:%%THEME%%/NumberBox/ChevronDown-Disabled.svg);
+                    }
+
+    /* FreeCAD */
+        /* Selection View */
+            /* Color Styles/Fill Color/Text/Primary */
+                Gui--DockWnd--SelectionView > QToolButton:hover,
+                _ {
+                    image: url(qss:%%THEME%%/SelectionView/BackSpaceQWERTYLg-Primary.svg);
+                }
+
+            /* Color Styles/Fill Color/Text/Secondary */
+                Gui--DockWnd--SelectionView > QToolButton,
+                _ {
+                    image: url(qss:%%THEME%%/SelectionView/BackSpaceQWERTYLg-Secondary.svg) ;
+                }
+
+            /* Color Styles/Fill Color/Text/Tertiary */
+                Gui--DockWnd--SelectionView > QToolButton:pressed,
+                _ {
+                    image: url(qss:%%THEME%%/SelectionView/BackSpaceQWERTYLg-Tertiary.svg);
+                }
+            
+            /* Color Styles/Fill Color/Text/Disabled */
+                Gui--DockWnd--SelectionView > QToolButton:disabled,
+                _ {
+                    image: url(qss:%%THEME%%/SelectionView/BackSpaceQWERTYLg-Disabled.svg);
+                }
+
+        /* Property View */
+            /* Color Styles/Fill Color/Text/Primary */
+                QTabWidget#propertyTab QTabBar::tab:first:selected,
+                QTabWidget#propertyTab QTabBar::tab:first:hover,
+                _ {
+                    image: url(qss:%%THEME%%/PropertyView/Personalize-Primary.svg);
+                }
+
+                QTabWidget#propertyTab QTabBar::tab:last:selected,
+                QTabWidget#propertyTab QTabBar::tab:last:hover,
+                _ {
+                    image: url(qss:%%THEME%%/PropertyView/Repair-Primary.svg);
+                }
+
+            /* Color Styles/Fill Color/Text/Secondary */
+                QTabWidget#propertyTab QTabBar::tab:first,
+                _ {
+                    image: url(qss:%%THEME%%/PropertyView/Personalize-Secondary.svg);
+                }
+
+                QTabWidget#propertyTab QTabBar::tab:last,
+                _ {
+                    image: url(qss:%%THEME%%/PropertyView/Repair-Secondary.svg);
+                }
+
+            /* Color Styles/Fill Color/Text/Tertiary */
+                QTabWidget#propertyTab QTabBar::tab:first:pressed,
+                _ {
+                    image: url(qss:%%THEME%%/PropertyView/Personalize-Tertiary.svg);
+                }
+
+                QTabWidget#propertyTab QTabBar::tab:last:pressed,
+                _ {
+                    image: url(qss:%%THEME%%/PropertyView/Repair-Tertiary.svg);
+                }
+
+            /* Color Styles/Fill Color/Text/Disabled */
+                QTabWidget#propertyTab QTabBar::tab:first:disabled,
+                _ {
+                    image: url(qss:%%THEME%%/PropertyView/Personalize-Disabled.svg);
+                }
+
+                QTabWidget#propertyTab QTabBar::tab:last:disabled,
+                _ {
+                    image: url(qss:%%THEME%%/PropertyView/Repair-Disabled.svg);
+                }
+
+        /* Sketcher */
+            /* Color Styles/Fill Color/Text On Accent/Primary */
+                QListView#listWidgetConstraints::indicator:!checked:hover,
+                _ {
+                    image: url(qss:%%THEME%%/Sketcher/View-Primary.svg);
+                }
+
+                QListView#listWidgetConstraints::indicator:checked:hover,
+                _ {
+                    image: url(qss:%%THEME%%/Sketcher/Hide-Primary.svg);
+                }
+
+            /* Color Styles/Fill Color/Text On Accent/Secondary */
+                QListView#listWidgetConstraints::indicator:checked,
+                _ {
+                    image: url(qss:%%THEME%%/Sketcher/View-Secondary.svg);
+                }
+
+                QListView#listWidgetConstraints::indicator:!checked,
+                _ {
+                    image: url(qss:%%THEME%%/Sketcher/Hide-Secondary.svg);
+                }
+
+            /* Color Styles/Fill Color/Text On Accent/Tertiary */
+                QListView#listWidgetConstraints::indicator:!checked:pressed,
+                _ {
+                    image: url(qss:%%THEME%%/Sketcher/View-Tertiary.svg);
+                }
+
+                QListView#listWidgetConstraints::indicator:checked:pressed,
+                _ {
+                    image: url(qss:%%THEME%%/Sketcher/Hide-Tertiary.svg);
+                }
+
+            /* Color Styles/Fill Color/Text On Accent/Disabled */
+                QListView#listWidgetConstraints::indicator:checked:hover,
+                _ {
+                    image: url(qss:%%THEME%%/Sketcher/View-Disabled.svg);
+                }
+
+                QListView#listWidgetConstraints::indicator:!checked:hover,
+                _ {
+                    image: url(qss:%%THEME%%/Sketcher/Hide-Disabled.svg);
+                }
+
+        /* Overlay */
+            /* Color Styles/Fill Color/Text/Primary */
+                Gui--OverlayToolButton[objectName="OBTN Close"]:hover,
+                _ {
+                    image: url(qss:%%THEME%%/Overlay/Clear12-Primary.svg);
+                }
+
+                Gui--OverlayToolButton[objectName="OBTN AutoMode"]:hover,
+                _ {
+                    image: url(qss:%%THEME%%/Overlay/Settings-Primary.svg);
+                }
+
+                Gui--OverlayToolButton[objectName="OBTN Transparent"]:hover,
+                _ {
+                    image: url(qss:%%THEME%%/Overlay/View-Primary.svg);
+                }
+
+                Gui--OverlayToolButton[objectName="OBTN Float"]:hover,
+                Gui--OverlaySplitterHandle Gui--OverlayToolButton:hover,
+                _ {
+                    image: url(qss:%%THEME%%/Overlay/NewWindow-Primary.svg);
+                }
+
+                Gui--OverlayTabWidget#OverlayTop Gui--OverlayToolButton[objectName="OBTN Overlay"]:hover,
+                QDockWidget[objectName="Selection view"] Gui--OverlayToolButton[objectName="OBTN Overlay"]:hover,
+                _ {
+                    image: url(qss:%%THEME%%/Overlay/DockTop-Primary.svg);
+                }
+
+                Gui--OverlayTabWidget#OverlayRight Gui--OverlayToolButton[objectName="OBTN Overlay"]:hover,
+                QDockWidget[objectName="Combo View"] Gui--OverlayToolButton[objectName="OBTN Overlay"]:hover,
+                QDockWidget[objectName="Property view"] Gui--OverlayToolButton[objectName="OBTN Overlay"]:hover,
+                _ {
+                    image: url(qss:%%THEME%%/Overlay/DockRight-Primary.svg);
+                }
+
+                Gui--OverlayTabWidget#OverlayBottom Gui--OverlayToolButton[objectName="OBTN Overlay"]:hover,
+                QDockWidget[objectName="Report view"] Gui--OverlayToolButton[objectName="OBTN Overlay"]:hover,
+                QDockWidget[objectName="Python console"] Gui--OverlayToolButton[objectName="OBTN Overlay"]:hover,
+                _ {
+                    image: url(qss:%%THEME%%/Overlay/DockBottom-Primary.svg);
+                }
+
+                Gui--OverlayTabWidget#OverlayLeft Gui--OverlayToolButton[objectName="OBTN Overlay"]:hover,
+                QDockWidget[objectName="Tree view"] Gui--OverlayToolButton[objectName="OBTN Overlay"]:hover,
+                _ {
+                    image: url(qss:%%THEME%%/Overlay/DockLeft-Primary.svg);
+                }
+            
+            /* Color Styles/Fill Color/Text/Secondary */
+                Gui--OverlayToolButton[objectName="OBTN Close"],
+                _ {
+                    image: url(qss:%%THEME%%/Overlay/Clear12-Secondary.svg);
+                }
+
+                Gui--OverlayToolButton[objectName="OBTN AutoMode"],
+                _ {
+                    image: url(qss:%%THEME%%/Overlay/Settings-Secondary.svg);
+                }
+
+                Gui--OverlayToolButton[objectName="OBTN Transparent"],
+                _ {
+                    image: url(qss:%%THEME%%/Overlay/View-Secondary.svg);
+                }
+
+                Gui--OverlayToolButton[objectName="OBTN Float"],
+                Gui--OverlaySplitterHandle Gui--OverlayToolButton,
+                _ {
+                    image: url(qss:%%THEME%%/Overlay/NewWindow-Secondary.svg);
+                }
+
+                Gui--OverlayTabWidget#OverlayTop Gui--OverlayToolButton[objectName="OBTN Overlay"],
+                QDockWidget[objectName="Selection view"] Gui--OverlayToolButton[objectName="OBTN Overlay"],
+                _ {
+                    image: url(qss:%%THEME%%/Overlay/DockTop-Secondary.svg);
+                }
+
+                Gui--OverlayTabWidget#OverlayRight Gui--OverlayToolButton[objectName="OBTN Overlay"],
+                QDockWidget[objectName="Combo View"] Gui--OverlayToolButton[objectName="OBTN Overlay"],
+                QDockWidget[objectName="Property view"] Gui--OverlayToolButton[objectName="OBTN Overlay"],
+                _ {
+                    image: url(qss:%%THEME%%/Overlay/DockRight-Secondary.svg);
+                }
+
+                Gui--OverlayTabWidget#OverlayBottom Gui--OverlayToolButton[objectName="OBTN Overlay"],
+                QDockWidget[objectName="Report view"] Gui--OverlayToolButton[objectName="OBTN Overlay"],
+                QDockWidget[objectName="Python console"] Gui--OverlayToolButton[objectName="OBTN Overlay"],
+                _ {
+                    image: url(qss:%%THEME%%/Overlay/DockBottom-Secondary.svg);
+                }
+
+                Gui--OverlayTabWidget#OverlayLeft Gui--OverlayToolButton[objectName="OBTN Overlay"],
+                QDockWidget[objectName="Tree view"] Gui--OverlayToolButton[objectName="OBTN Overlay"],
+                _ {
+                    image: url(qss:%%THEME%%/Overlay/DockLeft-Secondary.svg);
+                }
+                
+            /* Color Styles/Fill Color/Text/Tertiary */
+                Gui--OverlayToolButton[objectName="OBTN Close"]:pressed,
+                _ {
+                    image: url(qss:%%THEME%%/Overlay/Clear12-Tertiary.svg);
+                }
+
+                Gui--OverlayToolButton[objectName="OBTN AutoMode"]:pressed,
+                _ {
+                    image: url(qss:%%THEME%%/Overlay/Settings-Tertiary.svg);
+                }
+
+                Gui--OverlayToolButton[objectName="OBTN Transparent"]:pressed,
+                _ {
+                    image: url(qss:%%THEME%%/Overlay/View-Tertiary.svg);
+                }
+
+                Gui--OverlayToolButton[objectName="OBTN Float"]:pressed,
+                Gui--OverlaySplitterHandle Gui--OverlayToolButton:pressed,
+                _ {
+                    image: url(qss:%%THEME%%/Overlay/NewWindow-Tertiary.svg);
+                }
+
+                Gui--OverlayTabWidget#OverlayTop Gui--OverlayToolButton[objectName="OBTN Overlay"]:pressed,
+                QDockWidget[objectName="Selection view"] Gui--OverlayToolButton[objectName="OBTN Overlay"]:pressed,
+                _ {
+                    image: url(qss:%%THEME%%/Overlay/DockTop-Tertiary.svg);
+                }
+
+                Gui--OverlayTabWidget#OverlayRight Gui--OverlayToolButton[objectName="OBTN Overlay"]:pressed,
+                QDockWidget[objectName="Combo View"] Gui--OverlayToolButton[objectName="OBTN Overlay"]:pressed,
+                QDockWidget[objectName="Property view"] Gui--OverlayToolButton[objectName="OBTN Overlay"]:pressed,
+                _ {
+                    image: url(qss:%%THEME%%/Overlay/DockRight-Tertiary.svg);
+                }
+
+                Gui--OverlayTabWidget#OverlayBottom Gui--OverlayToolButton[objectName="OBTN Overlay"]:pressed,
+                QDockWidget[objectName="Report view"] Gui--OverlayToolButton[objectName="OBTN Overlay"]:pressed,
+                QDockWidget[objectName="Python console"] Gui--OverlayToolButton[objectName="OBTN Overlay"]:pressed,
+                _ {
+                    image: url(qss:%%THEME%%/Overlay/DockBottom-Tertiary.svg);
+                }
+
+                Gui--OverlayTabWidget#OverlayLeft Gui--OverlayToolButton[objectName="OBTN Overlay"]:pressed,
+                QDockWidget[objectName="Tree view"] Gui--OverlayToolButton[objectName="OBTN Overlay"]:pressed,
+                _ {
+                    image: url(qss:%%THEME%%/Overlay/DockLeft-Tertiary.svg);
+                }
+
+    /* Commands */
+        /* Standard-View */
+            /* Dock View */
+                QToolButton[whatsThis="Std_ViewDock"],
+                _ {
+                    qproperty-toolButtonStyle: ToolButtonTextOnly;
+                    image: url(qss:%%THEME%%/Commands/StandardView/OpenPane-Secondary.svg);
+                }
+
+                QToolButton[whatsThis="Std_ViewDock"]:hover,
+                _ {
+                    image: url(qss:%%THEME%%/Commands/StandardView/OpenPane-Primary.svg);
+                }
+
+                QToolButton[whatsThis="Std_ViewDock"]:pressed,
+                _ {
+                    image: url(qss:%%THEME%%/Commands/StandardView/OpenPane-Tertiary.svg);
+                }
+
+                QToolButton[whatsThis="Std_ViewDock"]:disabled,
+                _ {
+                    image: url(qss:%%THEME%%/Commands/StandardView/OpenPane-Disabled.svg);
+                }
+
+            /* Undock View */
+                QToolButton[whatsThis="Std_ViewUndock"],
+                _ {
+                    qproperty-toolButtonStyle: ToolButtonTextOnly;
+                    image: url(qss:%%THEME%%/Commands/StandardView/ClosePane-Secondary.svg);
+                }
+
+                QToolButton[whatsThis="Std_ViewUndock"]:hover,
+                _ {
+                    image: url(qss:%%THEME%%/Commands/StandardView/ClosePane-Primary.svg);
+                }
+
+                QToolButton[whatsThis="Std_ViewUndock"]:pressed,
+                _ {
+                    image: url(qss:%%THEME%%/Commands/StandardView/ClosePane-Tertiary.svg);
+                }
+
+                QToolButton[whatsThis="Std_ViewUndock"]:disabled,
+                _ {
+                    image: url(qss:%%THEME%%/Commands/StandardView/ClosePane-Disabled.svg);
+                }
+
+        /* File */
+            /* New */
+                QToolButton[whatsThis="Std_New"],
+                _ {
+                    qproperty-toolButtonStyle: ToolButtonTextOnly;
+                    image: url(qss:%%THEME%%/Commands/File/NewFolder-Secondary.svg);
+                }
+
+                QToolButton[whatsThis="Std_New"]:hover,
+                _ {
+                    image: url(qss:%%THEME%%/Commands/File/NewFolder-Primary.svg);
+                }
+
+                QToolButton[whatsThis="Std_New"]:pressed,
+                _ {
+                    image: url(qss:%%THEME%%/Commands/File/NewFolder-Tertiary.svg);
+                }
+
+                QToolButton[whatsThis="Std_New"]:disabled,
+                _ {
+                    image: url(qss:%%THEME%%/Commands/File/NewFolder-Disabled.svg);
+                }
+
+            /* Open */
+                QToolButton[whatsThis="Std_Open"],
+                _ {
+                    qproperty-toolButtonStyle: ToolButtonTextOnly;
+                    image: url(qss:%%THEME%%/Commands/File/OpenFolder-Secondary.svg);
+                }
+
+                QToolButton[whatsThis="Std_Open"]:hover,
+                _ {
+                    image: url(qss:%%THEME%%/Commands/File/OpenFolder-Primary.svg);
+                }
+
+                QToolButton[whatsThis="Std_Open"]:pressed,
+                _ {
+                    image: url(qss:%%THEME%%/Commands/File/OpenFolder-Tertiary.svg);
+                }
+
+                QToolButton[whatsThis="Std_Open"]:disabled,
+                _ {
+                    image: url(qss:%%THEME%%/Commands/File/OpenFolder-Disabled.svg);
+                }
+                
+            /* Save */
+                QToolButton[whatsThis="Std_Save"],
+                _ {
+                    qproperty-toolButtonStyle: ToolButtonTextOnly;
+                    image: url(qss:%%THEME%%/Commands/File/Save-Secondary.svg);
+                }
+
+                QToolButton[whatsThis="Std_Save"]:hover,
+                _ {
+                    image: url(qss:%%THEME%%/Commands/File/Save-Primary.svg);
+                }
+
+                QToolButton[whatsThis="Std_Save"]:pressed,
+                _ {
+                    image: url(qss:%%THEME%%/Commands/File/Save-Tertiary.svg);
+                }
+
+                QToolButton[whatsThis="Std_Save"]:disabled,
+                _ {
+                    image: url(qss:%%THEME%%/Commands/File/Save-Disabled.svg);
+                }
+                
+            /* Print */
+                QToolButton[whatsThis="Std_Print"],
+                _ {
+                    qproperty-toolButtonStyle: ToolButtonTextOnly;
+                    image: url(qss:%%THEME%%/Commands/File/Print-Secondary.svg);
+                }
+
+                QToolButton[whatsThis="Std_Print"]:hover,
+                _ {
+                    image: url(qss:%%THEME%%/Commands/File/Print-Primary.svg);
+                }
+
+                QToolButton[whatsThis="Std_Print"]:pressed,
+                _ {
+                    image: url(qss:%%THEME%%/Commands/File/Print-Tertiary.svg);
+                }
+
+                QToolButton[whatsThis="Std_Print"]:disabled,
+                _ {
+                    image: url(qss:%%THEME%%/Commands/File/Print-Disabled.svg);
+                }
+                
+        /* Edit */
+            /* Cut */
+                QToolButton[whatsThis="Std_Cut"],
+                _ {
+                    qproperty-toolButtonStyle: ToolButtonTextOnly;
+                    image: url(qss:%%THEME%%/Commands/Edit/Cut-Secondary.svg);
+                }
+
+                QToolButton[whatsThis="Std_Cut"]:hover,
+                _ {
+                    image: url(qss:%%THEME%%/Commands/Edit/Cut-Primary.svg);
+                }
+
+                QToolButton[whatsThis="Std_Cut"]:pressed,
+                _ {
+                    image: url(qss:%%THEME%%/Commands/Edit/Cut-Tertiary.svg);
+                }
+
+                QToolButton[whatsThis="Std_Cut"]:disabled,
+                _ {
+                    image: url(qss:%%THEME%%/Commands/Edit/Cut-Disabled.svg);
+                }
+
+            /* Copy */
+                QToolButton[whatsThis="Std_Copy"],
+                _ {
+                    qproperty-toolButtonStyle: ToolButtonTextOnly;
+                    image: url(qss:%%THEME%%/Commands/Edit/Copy-Secondary.svg);
+                }
+
+                QToolButton[whatsThis="Std_Copy"]:hover,
+                _ {
+                    image: url(qss:%%THEME%%/Commands/Edit/Copy-Primary.svg);
+                }
+
+                QToolButton[whatsThis="Std_Copy"]:pressed,
+                _ {
+                    image: url(qss:%%THEME%%/Commands/Edit/Copy-Tertiary.svg);
+                }
+
+                QToolButton[whatsThis="Std_Copy"]:disabled,
+                _ {
+                    image: url(qss:%%THEME%%/Commands/Edit/Copy-Disabled.svg);
+                }
+                
+            /* Paste */
+                QToolButton[whatsThis="Std_Paste"],
+                _ {
+                    qproperty-toolButtonStyle: ToolButtonTextOnly;
+                    image: url(qss:%%THEME%%/Commands/Edit/Paste-Secondary.svg);
+                }
+
+                QToolButton[whatsThis="Std_Paste"]:hover,
+                _ {
+                    image: url(qss:%%THEME%%/Commands/Edit/Paste-Primary.svg);
+                }
+
+                QToolButton[whatsThis="Std_Paste"]:pressed,
+                _ {
+                    image: url(qss:%%THEME%%/Commands/Edit/Paste-Tertiary.svg);
+                }
+
+                QToolButton[whatsThis="Std_Paste"]:disabled,
+                _ {
+                    image: url(qss:%%THEME%%/Commands/Edit/Paste-Disabled.svg);
+                }
+                
+            /* Undo */
+                QToolButton[whatsThis="Std_Undo"],
+                _ {
+                    qproperty-toolButtonStyle: ToolButtonTextOnly;
+                    image: url(qss:%%THEME%%/Commands/Edit/Undo-Secondary.svg);
+                }
+
+                QToolButton[whatsThis="Std_Undo"]:hover,
+                _ {
+                    image: url(qss:%%THEME%%/Commands/Edit/Undo-Primary.svg);
+                }
+
+                QToolButton[whatsThis="Std_Undo"]:pressed,
+                _ {
+                    image: url(qss:%%THEME%%/Commands/Edit/Undo-Tertiary.svg);
+                }
+
+                QToolButton[whatsThis="Std_Undo"]:disabled,
+                _ {
+                    image: url(qss:%%THEME%%/Commands/Edit/Undo-Disabled.svg);
+                }
+                
+            /* Redo */
+                QToolButton[whatsThis="Std_Redo"],
+                _ {
+                    qproperty-toolButtonStyle: ToolButtonTextOnly;
+                    image: url(qss:%%THEME%%/Commands/Edit/Redo-Secondary.svg);
+                }
+
+                QToolButton[whatsThis="Std_Redo"]:hover,
+                _ {
+                    image: url(qss:%%THEME%%/Commands/Edit/Redo-Primary.svg);
+                }
+
+                QToolButton[whatsThis="Std_Redo"]:pressed,
+                _ {
+                    image: url(qss:%%THEME%%/Commands/Edit/Redo-Tertiary.svg);
+                }
+
+                QToolButton[whatsThis="Std_Redo"]:disabled,
+                _ {
+                    image: url(qss:%%THEME%%/Commands/Edit/Redo-Disabled.svg);
+                }
+
+            /* Refresh */
+                QToolButton[whatsThis="Std_Refresh"],
+                _ {
+                    qproperty-toolButtonStyle: ToolButtonTextOnly;
+                    image: url(qss:%%THEME%%/Commands/Edit/Refresh-Secondary.svg);
+                }
+
+                QToolButton[whatsThis="Std_Refresh"]:hover,
+                _ {
+                    image: url(qss:%%THEME%%/Commands/Edit/Refresh-Primary.svg);
+                }
+
+                QToolButton[whatsThis="Std_Refresh"]:pressed,
+                _ {
+                    image: url(qss:%%THEME%%/Commands/Edit/Refresh-Tertiary.svg);
+                }
+
+                QToolButton[whatsThis="Std_Refresh"]:disabled,
+                _ {
+                    image: url(qss:%%THEME%%/Commands/Edit/Refresh-Disabled.svg);
+                }
+
+            /* Delete */
+                QToolButton[whatsThis="Std_Delete"],
+                _ {
+                    qproperty-toolButtonStyle: ToolButtonTextOnly;
+                    image: url(qss:%%THEME%%/Commands/Edit/Delete-Secondary.svg);
+                }
+
+                QToolButton[whatsThis="Std_Delete"]:hover,
+                _ {
+                    image: url(qss:%%THEME%%/Commands/Edit/Delete-Primary.svg);
+                }
+
+                QToolButton[whatsThis="Std_Delete"]:pressed,
+                _ {
+                    image: url(qss:%%THEME%%/Commands/Edit/Delete-Tertiary.svg);
+                }
+
+                QToolButton[whatsThis="Std_Delete"]:disabled,
+                _ {
+                    image: url(qss:%%THEME%%/Commands/Edit/Delete-Disabled.svg);
+                }
+        /* Help */
+            /* What's This? */
+                QToolButton[whatsThis="Std_WhatsThis"],
+                _ {
+                    qproperty-toolButtonStyle: ToolButtonTextOnly;
+                    image: url(qss:%%THEME%%/Commands/Help/PenTip-Secondary.svg);
+                }
+
+                QToolButton[whatsThis="Std_WhatsThis"]:hover,
+                _ {
+                    image: url(qss:%%THEME%%/Commands/Help/PenTip-Primary.svg);
+                }
+
+                QToolButton[whatsThis="Std_WhatsThis"]:pressed,
+                _ {
+                    image: url(qss:%%THEME%%/Commands/Help/PenTip-Tertiary.svg);
+                }
+
+                QToolButton[whatsThis="Std_WhatsThis"]:disabled,
+                _ {
+                    image: url(qss:%%THEME%%/Commands/Help/PenTip-Disabled.svg);
+                }
+

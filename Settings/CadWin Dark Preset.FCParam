@@ -1,0 +1,1353 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<FCParameters>
+  <FCParamGroup Name="Root">
+    <FCParamGroup Name="BaseApp">
+      <FCParamGroup Name="LogLevels">
+        <FCInt Name="Default" Value="2"/>
+      </FCParamGroup>
+      <FCParamGroup Name="Preferences">
+        <FCParamGroup Name="General">
+          <FCText Name="LastModule">PartDesignWorkbench</FCText>
+          <FCText Name="PreferenceGeometry">510 195 1024 768</FCText>
+          <FCText Name="AutoloadModule">$LastModule</FCText>
+          <FCText Name="Language">English</FCText>
+          <FCBool Name="AutoApplyPreference" Value="1"/>
+          <FCBool Name="SaveUserParameter" Value="1"/>
+          <FCBool Name="ShowSplasher" Value="1"/>
+          <FCBool Name="PythonWordWrap" Value="1"/>
+          <FCInt Name="ToolbarIconSize" Value="24"/>
+        </FCParamGroup>
+        <FCParamGroup Name="Units">
+          <FCInt Name="UserSchema" Value="0"/>
+          <FCInt Name="Decimals" Value="2"/>
+          <FCInt Name="DecimalsPreSel" Value="-1"/>
+          <FCInt Name="FracInch" Value="8"/>
+        </FCParamGroup>
+        <FCParamGroup Name="Macro">
+          <FCText Name="ScriptFile">FullScript.FCScript</FCText>
+          <FCBool Name="LocalEnvironment" Value="1"/>
+          <FCBool Name="RecordGui" Value="1"/>
+          <FCBool Name="GuiAsComment" Value="1"/>
+          <FCBool Name="ScriptToPyConsole" Value="1"/>
+          <FCBool Name="ScriptToFile" Value="0"/>
+        </FCParamGroup>
+        <FCParamGroup Name="Mod">
+          <FCParamGroup Name="Import">
+            <FCParamGroup Name="hSTEP">
+              <FCBool Name="ReadShapeCompoundMode" Value="0"/>
+            </FCParamGroup>
+            <FCBool Name="UseAppPart" Value="1"/>
+            <FCBool Name="UseLegacyImporter" Value="0"/>
+            <FCBool Name="UseBaseName" Value="1"/>
+            <FCBool Name="ImportHiddenObject" Value="1"/>
+            <FCBool Name="ExportHiddenObject" Value="1"/>
+            <FCBool Name="ExportKeepPlacement" Value="1"/>
+            <FCBool Name="ReduceObjects" Value="0"/>
+            <FCBool Name="ShowProgress" Value="1"/>
+            <FCBool Name="ExpandCompound" Value="1"/>
+            <FCBool Name="ExportLegacy" Value="0"/>
+            <FCInt Name="ImportMode" Value="0"/>
+          </FCParamGroup>
+          <FCParamGroup Name="OpenSCAD"/>
+          <FCParamGroup Name="Part">
+            <FCParamGroup Name="General">
+              <FCInt Name="WriteSurfaceCurveMode" Value="1"/>
+            </FCParamGroup>
+            <FCParamGroup Name="IGES">
+              <FCBool Name="BrepMode" Value="0"/>
+              <FCBool Name="SkipBlankEntities" Value="1"/>
+              <FCInt Name="Unit" Value="0"/>
+            </FCParamGroup>
+            <FCParamGroup Name="STEP">
+              <FCText Name="Scheme">AP214IS</FCText>
+              <FCInt Name="Unit" Value="0"/>
+            </FCParamGroup>
+            <FCParamGroup Name="Boolean">
+              <FCBool Name="CheckModel" Value="1"/>
+              <FCBool Name="RefineModel" Value="1"/>
+            </FCParamGroup>
+            <FCBool Name="SingleSolid" Value="0"/>
+            <FCBool Name="UseBaseObjectName" Value="0"/>
+            <FCBool Name="AutoGroupSolids" Value="0"/>
+            <FCBool Name="OverrideTessellation" Value="0"/>
+            <FCBool Name="MapFaceColor" Value="1"/>
+            <FCBool Name="MapLineColor" Value="0"/>
+            <FCBool Name="MapPointColor" Value="0"/>
+            <FCBool Name="MapTransparency" Value="0"/>
+            <FCBool Name="TwoSideRendering" Value="1"/>
+            <FCBool Name="RespectSystemDPI" Value="1"/>
+            <FCInt Name="CommandOverride" Value="2"/>
+            <FCInt Name="EnableWrapFeature" Value="2"/>
+            <FCInt Name="GridLinePattern" Value="3855"/>
+            <FCFloat Name="MeshDeviation" Value="0.200000000000"/>
+            <FCFloat Name="MeshAngularDeflection" Value="28.650000000000"/>
+            <FCFloat Name="MinimumDeviation" Value="0.050000000000"/>
+            <FCFloat Name="MinimumAngularDeflection" Value="5.000000000000"/>
+            <FCUInt Name="PreviewAddColor" Value="1694498608"/>
+            <FCUInt Name="PreviewSubColor" Value="4284769328"/>
+            <FCUInt Name="PreviewIntersectColor" Value="1684340528"/>
+            <FCUInt Name="PreviewDressColor" Value="4284809008"/>
+          </FCParamGroup>
+          <FCParamGroup Name="Arch">
+            <FCText Name="ifcRootElement">IfcProduct</FCText>
+            <FCBool Name="ColladaExportInstances" Value="1"/>
+            <FCBool Name="ColladaImportInstances" Value="1"/>
+            <FCBool Name="ifcShowDialog" Value="0"/>
+            <FCBool Name="ifcDebug" Value="0"/>
+            <FCBool Name="ifcCreateClones" Value="1"/>
+            <FCBool Name="ifcSeparateOpenings" Value="0"/>
+            <FCBool Name="ifcGetExtrusions" Value="0"/>
+            <FCBool Name="ifcSplitLayers" Value="0"/>
+            <FCBool Name="ifcPrefixNumbers" Value="0"/>
+            <FCBool Name="ifcMergeMaterials" Value="0"/>
+            <FCBool Name="ifcImportProperties" Value="0"/>
+            <FCBool Name="ifcAllowInvalid" Value="0"/>
+            <FCBool Name="ifcFitViewOnImport" Value="0"/>
+            <FCBool Name="IfcImportFreeCADProperties" Value="0"/>
+            <FCBool Name="ifcReplaceProject" Value="0"/>
+            <FCBool Name="ifcExportAsBrep" Value="0"/>
+            <FCBool Name="ifcUseDaeOptions" Value="0"/>
+            <FCBool Name="ifcJoinCoplanarFacets" Value="0"/>
+            <FCBool Name="ifcStoreUid" Value="1"/>
+            <FCBool Name="ifcSerialize" Value="0"/>
+            <FCBool Name="ifcExport2D" Value="1"/>
+            <FCBool Name="IfcExportFreeCADProperties" Value="0"/>
+            <FCBool Name="ifcCompress" Value="1"/>
+            <FCBool Name="DisableIfcRectangleProfileDef" Value="0"/>
+            <FCBool Name="getStandardCase" Value="0"/>
+            <FCBool Name="IfcAddDefaultSite" Value="0"/>
+            <FCBool Name="IfcAddDefaultBuilding" Value="1"/>
+            <FCBool Name="IfcAddDefaultStorey" Value="0"/>
+            <FCBool Name="ColladaExportSegments" Value="0"/>
+            <FCBool Name="ColladaSecondOrder" Value="0"/>
+            <FCBool Name="ColladaOptimize" Value="1"/>
+            <FCBool Name="ColladaAllowQuads" Value="0"/>
+            <FCInt Name="ifcMulticore" Value="0"/>
+            <FCInt Name="ifcImportModeArch" Value="0"/>
+            <FCInt Name="ifcImportModeStruct" Value="0"/>
+            <FCInt Name="ifcExportModel" Value="0"/>
+            <FCInt Name="ifcUnit" Value="0"/>
+            <FCInt Name="ColladaSegsPerEdge" Value="1"/>
+            <FCInt Name="ColladaSegsPerRadius" Value="2"/>
+            <FCInt Name="ColladaMesher" Value="0"/>
+            <FCFloat Name="ColladaScalingFactor" Value="1.000000000000"/>
+            <FCFloat Name="ColladaTessellation" Value="1.000000000000"/>
+            <FCFloat Name="ColladaGrading" Value="0.300000000000"/>
+          </FCParamGroup>
+          <FCParamGroup Name="Draft">
+            <FCBool Name="dxfShowDialog" Value="0"/>
+            <FCBool Name="dxfUseLegacyImporter" Value="0"/>
+            <FCBool Name="dxfUseLegacyExporter" Value="0"/>
+            <FCBool Name="dxfAllowDownload" Value="0"/>
+            <FCBool Name="dxftext" Value="0"/>
+            <FCBool Name="dxfImportPoints" Value="0"/>
+            <FCBool Name="dxflayout" Value="0"/>
+            <FCBool Name="dxfstarblocks" Value="0"/>
+            <FCBool Name="dxfGetOriginalColors" Value="0"/>
+            <FCBool Name="joingeometry" Value="0"/>
+            <FCBool Name="groupLayers" Value="0"/>
+            <FCBool Name="dxfStdSize" Value="0"/>
+            <FCBool Name="dxfUseDraftVisGroups" Value="1"/>
+            <FCBool Name="importDxfHatches" Value="0"/>
+            <FCBool Name="renderPolylineWidth" Value="0"/>
+            <FCBool Name="DiscretizeEllipses" Value="1"/>
+            <FCBool Name="dxfmesh" Value="0"/>
+            <FCBool Name="dxfExportBlocks" Value="1"/>
+            <FCBool Name="dxfproject" Value="0"/>
+            <FCBool Name="dxfCreatePart" Value="1"/>
+            <FCBool Name="dxfCreateDraft" Value="0"/>
+            <FCBool Name="dxfCreateSketch" Value="0"/>
+            <FCBool Name="svgDisableUnitScaling" Value="0"/>
+            <FCBool Name="SvgLinesBlack" Value="1"/>
+            <FCBool Name="ocaareas" Value="0"/>
+            <FCInt Name="svgstyle" Value="0"/>
+            <FCInt Name="svg_export_style" Value="0"/>
+            <FCFloat Name="dxfScaling" Value="1.000000000000"/>
+            <FCFloat Name="maxsegmentlength" Value="5.000000000000"/>
+            <FCFloat Name="svgDiscretization" Value="0.000000000000"/>
+          </FCParamGroup>
+          <FCParamGroup Name="Assembly3">
+            <FCBool Name="LockMover" Value="0"/>
+            <FCBool Name="AutoRecompute" Value="1"/>
+            <FCBool Name="SmartRecompute" Value="0"/>
+            <FCBool Name="AutoFixElement" Value="0"/>
+            <FCBool Name="AutoElementVis" Value="1"/>
+            <FCBool Name="ShowElementCS" Value="0"/>
+            <FCBool Name="GuiInited" Value="1"/>
+          </FCParamGroup>
+          <FCParamGroup Name="Start">
+            <FCText Name="AutoloadModule">StartWorkbench</FCText>
+            <FCBool Name="InWeb" Value="0"/>
+            <FCBool Name="InBrowser" Value="1"/>
+            <FCBool Name="ShowNotes" Value="0"/>
+            <FCBool Name="ShowExamples" Value="1"/>
+            <FCBool Name="closeStart" Value="0"/>
+            <FCBool Name="DoNotShowOnOpen" Value="0"/>
+            <FCBool Name="ShowForum" Value="0"/>
+            <FCBool Name="UseStyleSheet" Value="0"/>
+            <FCBool Name="NewFileGradient" Value="0"/>
+            <FCBool Name="ShowTips" Value="1"/>
+            <FCInt Name="FontSize" Value="13"/>
+            <FCUInt Name="BackgroundColor1" Value="1331197183"/>
+            <FCUInt Name="BackgroundTextColor" Value="4294703103"/>
+            <FCUInt Name="PageColor" Value="4294967295"/>
+            <FCUInt Name="PageTextColor" Value="255"/>
+            <FCUInt Name="BoxColor" Value="3722305023"/>
+            <FCUInt Name="LinkColor" Value="65535"/>
+            <FCUInt Name="BackgroundColor2" Value="2141107711"/>
+          </FCParamGroup>
+          <FCParamGroup Name="PartDesign">
+            <FCBool Name="RefineModel" Value="1"/>
+          </FCParamGroup>
+          <FCParamGroup Name="Sketcher">
+            <FCParamGroup Name="General">
+              <FCParamGroup Name="GridSize">
+                <FCText Name="Hist0">10.000 mm</FCText>
+              </FCParamGroup>
+              <FCBool Name="NotifyConstraintSubstitutions" Value="1"/>
+              <FCBool Name="ShowGrid" Value="0"/>
+              <FCBool Name="GridSnap" Value="0"/>
+              <FCBool Name="AutoConstraints" Value="1"/>
+              <FCBool Name="AvoidRedundantAutoconstraints" Value="1"/>
+              <FCBool Name="HideDependent" Value="1"/>
+              <FCBool Name="ShowLinks" Value="1"/>
+              <FCBool Name="ShowSupport" Value="1"/>
+              <FCBool Name="RestoreCamera" Value="1"/>
+              <FCInt Name="TopRenderGeometryId" Value="1"/>
+              <FCInt Name="MidRenderGeometryId" Value="2"/>
+              <FCInt Name="LowRenderGeometryId" Value="3"/>
+            </FCParamGroup>
+            <FCBool Name="ShowSolverAdvancedWidget" Value="0"/>
+            <FCBool Name="RecalculateInitialSolutionWhileDragging" Value="1"/>
+            <FCBool Name="LeaveSketchWithEscape" Value="1"/>
+            <FCBool Name="AutoRemoveRedundants" Value="1"/>
+            <FCBool Name="ShowDialogOnDistanceConstraint" Value="1"/>
+            <FCBool Name="ContinuousCreationMode" Value="1"/>
+            <FCBool Name="ContinuousConstraintMode" Value="1"/>
+            <FCBool Name="HideUnits" Value="0"/>
+          </FCParamGroup>
+          <FCParamGroup Name="Spreadsheet">
+            <FCText Name="AliasedCellBackgroundColor">#0FFFFFFF</FCText>
+            <FCText Name="LockedAliasedCellColor">#0BFFFFFF</FCText>
+          </FCParamGroup>
+          <FCParamGroup Name="Mesh">
+            <FCParamGroup Name="Asymptote"/>
+          </FCParamGroup>
+          <FCParamGroup Name="Fem"/>
+          <FCParamGroup Name="Path"/>
+          <FCParamGroup Name="TechDraw">
+            <FCParamGroup Name="Rez"/>
+          </FCParamGroup>
+        </FCParamGroup>
+        <FCParamGroup Name="HighDPI"/>
+        <FCParamGroup Name="OpenGL">
+          <FCBool Name="UseSoftwareOpenGL" Value="0"/>
+        </FCParamGroup>
+        <FCParamGroup Name="Bitmaps">
+          <FCParamGroup Name="Theme"/>
+        </FCParamGroup>
+        <FCParamGroup Name="MainWindow">
+          <FCText Name="MainWindowState">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</FCText>
+          <FCText Name="Geometry">-1 -7 2048 1129</FCText>
+          <FCText Name="StyleSheet">CadWin Dark Malibu.qss</FCText>
+          <FCText Name="OverlayActiveStyleSheet">CadWin Dark Overlay.qss</FCText>
+          <FCText Name="MenuStyleSheet">CadWin Menu.qss</FCText>
+          <FCText Name="DefaultToolBarArea">Right</FCText>
+          <FCText Name="GlobalToolBarArea">Left</FCText>
+          <FCBool Name="Maximized" Value="1"/>
+          <FCBool Name="StatusBar" Value="0"/>
+          <FCBool Name="WindowStateRestored" Value="0"/>
+          <FCBool Name="TiledBackground" Value="0"/>
+        </FCParamGroup>
+        <FCParamGroup Name="DockWindows">
+          <FCParamGroup Name="ComboView">
+            <FCBool Name="Enabled" Value="1"/>
+            <FCInt Name="TreeViewSize" Value="0"/>
+            <FCInt Name="PropertyViewSize" Value="974"/>
+          </FCParamGroup>
+          <FCParamGroup Name="TreeView">
+            <FCBool Name="Enabled" Value="1"/>
+          </FCParamGroup>
+          <FCParamGroup Name="PropertyView">
+            <FCBool Name="Enabled" Value="1"/>
+          </FCParamGroup>
+          <FCParamGroup Name="DAGView">
+            <FCBool Name="Enabled" Value="0"/>
+          </FCParamGroup>
+        </FCParamGroup>
+        <FCParamGroup Name="View">
+          <FCText Name="GestureRollFwdCommand">Std_SelForward</FCText>
+          <FCText Name="GestureRollBackCommand">Std_SelBack</FCText>
+          <FCText Name="NavigationStyle">Gui::CADNavigationStyle</FCText>
+          <FCText Name="NewDocumentCameraOrientation">Trimetric</FCText>
+          <FCBool Name="CheckWidgetPlacementOnRestore" Value="1"/>
+          <FCBool Name="ShowSelectionOnTop" Value="1"/>
+          <FCBool Name="ShowPreSelectedFaceOnTop" Value="1"/>
+          <FCBool Name="ShowSelectionBoundingBox" Value="0"/>
+          <FCBool Name="HiddenLineSelectionOnTop" Value="1"/>
+          <FCBool Name="SelectElementOnTop" Value="0"/>
+          <FCBool Name="CornerCoordSystem" Value="0"/>
+          <FCBool Name="ShowAxisCross" Value="0"/>
+          <FCBool Name="SaveWBbyTab" Value="1"/>
+          <FCBool Name="ShowFPS" Value="0"/>
+          <FCBool Name="UseVBO" Value="1"/>
+          <FCBool Name="EnableBacklight" Value="0"/>
+          <FCBool Name="Perspective" Value="0"/>
+          <FCBool Name="Orthographic" Value="1"/>
+          <FCBool Name="ApplyCameraTypeToAll" Value="0"/>
+          <FCBool Name="PieMenuTriggerAction" Value="0"/>
+          <FCBool Name="PieMenuPopup" Value="0"/>
+          <FCBool Name="DockOverlayHideTabBar" Value="1"/>
+          <FCBool Name="DockOverlayHidePropertyViewScrollBar" Value="0"/>
+          <FCBool Name="DockOverlayAutoView" Value="1"/>
+          <FCBool Name="DockOverlayAutoMouseThrough" Value="1"/>
+          <FCBool Name="DockOverlayWheelPassThrough" Value="1"/>
+          <FCBool Name="DockOverlayCheckNaviCube" Value="0"/>
+          <FCBool Name="DockOverlayHintTabBar" Value="0"/>
+          <FCBool Name="DockOverlayActivateOnHover" Value="0"/>
+          <FCBool Name="GestureLongPressRotationCenter" Value="0"/>
+          <FCBool Name="ZoomAtCursor" Value="1"/>
+          <FCBool Name="InvertZoom" Value="1"/>
+          <FCBool Name="DisableTouchTilt" Value="1"/>
+          <FCBool Name="UseAutoRotation" Value="0"/>
+          <FCBool Name="ShowNaviCube" Value="1"/>
+          <FCBool Name="Simple" Value="1"/>
+          <FCBool Name="Gradient" Value="0"/>
+          <FCBool Name="UseBackgroundColorMid" Value="1"/>
+          <FCBool Name="EnablePreselection" Value="1"/>
+          <FCBool Name="EnableSelection" Value="1"/>
+          <FCBool Name="HiddenLineOverrideTransparency" Value="1"/>
+          <FCBool Name="HiddenLineShaded" Value="0"/>
+          <FCBool Name="HiddenLineOverrideColor" Value="1"/>
+          <FCBool Name="HiddenLineOverrideFaceColor" Value="1"/>
+          <FCBool Name="HiddenLineOverrideBackground" Value="0"/>
+          <FCBool Name="HiddenLineShowOutline" Value="1"/>
+          <FCBool Name="HiddenLinePerFaceOutline" Value="0"/>
+          <FCBool Name="HiddenLineHideFace" Value="0"/>
+          <FCBool Name="HiddenLineHideSeam" Value="1"/>
+          <FCBool Name="HiddenLineHideVertex" Value="1"/>
+          <FCBool Name="ShadowSpotLight" Value="0"/>
+          <FCBool Name="ShadowShowGround" Value="1"/>
+          <FCBool Name="ShadowGroundShading" Value="1"/>
+          <FCBool Name="ShadowGroundBackFaceCull" Value="1"/>
+          <FCBool Name="ShadowUpdateGround" Value="1"/>
+          <FCBool Name="ShadowTransparentShadow" Value="0"/>
+          <FCBool Name="RandomColor" Value="0"/>
+          <FCInt Name="DefaultFontSize" Value="0"/>
+          <FCInt Name="CommandHistorySize" Value="20"/>
+          <FCInt Name="PreselectionToolTipCorner" Value="3"/>
+          <FCInt Name="PreselectionToolTipOffsetX" Value="0"/>
+          <FCInt Name="PreselectionToolTipOffsetY" Value="0"/>
+          <FCInt Name="PreselectionToolTipFontSize" Value="0"/>
+          <FCInt Name="ShowSelectionBoundingBoxThreshold" Value="0"/>
+          <FCInt Name="AntiAliasing" Value="0"/>
+          <FCInt Name="RenderCache" Value="3"/>
+          <FCInt Name="TransparentObjectRenderType" Value="0"/>
+          <FCInt Name="MarkerSize" Value="11"/>
+          <FCInt Name="BacklightIntensity" Value="100"/>
+          <FCInt Name="RenderCacheMergeCount" Value="0"/>
+          <FCInt Name="RenderCacheMergeCountMax" Value="0"/>
+          <FCInt Name="TextCursorWidth" Value="1"/>
+          <FCInt Name="PieMenuIconSize" Value="24"/>
+          <FCInt Name="PieMenuRadius" Value="100"/>
+          <FCInt Name="PieMenuTriggerRadius" Value="60"/>
+          <FCInt Name="PieMenuCenterRadius" Value="10"/>
+          <FCInt Name="PieMenuFontSize" Value="0"/>
+          <FCInt Name="PieMenuTriggerDelay" Value="200"/>
+          <FCInt Name="PieMenuAnimationDuration" Value="250"/>
+          <FCInt Name="PieMenuAnimationCurve" Value="38"/>
+          <FCInt Name="DockOverlayWheelDelay" Value="0"/>
+          <FCInt Name="DockOverlayAlphaRadius" Value="1"/>
+          <FCInt Name="DockOverlayHintTriggerSize" Value="1"/>
+          <FCInt Name="DockOverlayHintSize" Value="20"/>
+          <FCInt Name="DockOverlayHintDelay" Value="0"/>
+          <FCInt Name="DockOverlaySplitterHandleTimeout" Value="0"/>
+          <FCInt Name="DockOverlayDelay" Value="0"/>
+          <FCInt Name="DockOverlayAnimationDuration" Value="0"/>
+          <FCInt Name="DockOverlayAnimationCurve" Value="0"/>
+          <FCInt Name="OrbitStyle" Value="1"/>
+          <FCInt Name="CornerNaviCube" Value="1"/>
+          <FCInt Name="RotationMode" Value="1"/>
+          <FCInt Name="NaviStepByTurn" Value="8"/>
+          <FCInt Name="SelectionLinePattern" Value="0"/>
+          <FCInt Name="ShadowDisplayMode" Value="2"/>
+          <FCInt Name="ShadowSmoothBorder" Value="0"/>
+          <FCInt Name="ShadowSpreadSize" Value="0"/>
+          <FCInt Name="ShadowSpreadSampleSize" Value="0"/>
+          <FCInt Name="SelectionLinePatternScale" Value="1"/>
+          <FCInt Name="DefaultShapeLineWidth" Value="2"/>
+          <FCInt Name="DefaultShapePointSize" Value="2"/>
+          <FCInt Name="EditSketcherFontSize" Value="17"/>
+          <FCInt Name="SegmentsPerGeometry" Value="50"/>
+          <FCFloat Name="SelectionColorDifference" Value="25.000000000000"/>
+          <FCFloat Name="PickRadius" Value="7.000000000000"/>
+          <FCFloat Name="EyeDistance" Value="5.000000000000"/>
+          <FCFloat Name="PreSelectionDelay" Value="0.100000000000"/>
+          <FCFloat Name="ZoomStep" Value="0.200000000000"/>
+          <FCFloat Name="NewDocumentCameraScale" Value="100.000000000000"/>
+          <FCFloat Name="HiddenLineTransparency" Value="0.400000000000"/>
+          <FCFloat Name="HiddenLineWidth" Value="1.500000000000"/>
+          <FCFloat Name="HiddenLinePointSize" Value="2.000000000000"/>
+          <FCFloat Name="TransparencyOnTop" Value="0.500000000000"/>
+          <FCFloat Name="SelectionLineThicken" Value="1.500000000000"/>
+          <FCFloat Name="SelectionLineMaxWidth" Value="4.000000000000"/>
+          <FCFloat Name="SelectionPointScale" Value="2.500000000000"/>
+          <FCFloat Name="SelectionPointMaxSize" Value="6.000000000000"/>
+          <FCFloat Name="SelectionHiddenLineWidth" Value="1.000000000000"/>
+          <FCFloat Name="ShadowLightIntensity" Value="0.800000000000"/>
+          <FCFloat Name="ShadowGroundScale" Value="2.000000000000"/>
+          <FCFloat Name="ShadowEpsilon" Value="0.000010000000"/>
+          <FCFloat Name="ShadowThreshold" Value="0.000000000000"/>
+          <FCFloat Name="ShadowPrecision" Value="1.000000000000"/>
+          <FCFloat Name="ShadowBoundBoxScale" Value="1.200000000000"/>
+          <FCFloat Name="ShadowGroundTransparency" Value="0.000000000000"/>
+          <FCFloat Name="ShadowMaxDistance" Value="0.000000000000"/>
+          <FCFloat Name="ShadowGroundTextureSize" Value="100.000000000000"/>
+          <FCFloat Name="ViewScalingFactor" Value="1.000000000000"/>
+          <FCUInt Name="BacklightColor" Value="4294967295"/>
+          <FCUInt Name="BackgroundColor" Value="741092607"/>
+          <FCUInt Name="BackgroundColor2" Value="741092607"/>
+          <FCUInt Name="BackgroundColor3" Value="741092607"/>
+          <FCUInt Name="BackgroundColor4" Value="741092607"/>
+          <FCUInt Name="HighlightColor" Value="2582380543"/>
+          <FCUInt Name="SelectionColor" Value="1624113151"/>
+          <FCUInt Name="ShadowLightColor" Value="4043177728"/>
+          <FCUInt Name="ShadowGroundColor" Value="2105376000"/>
+          <FCUInt Name="HiddenLineColor" Value="0"/>
+          <FCUInt Name="HiddenLineFaceColor" Value="4294967040"/>
+          <FCUInt Name="HiddenLineBackground" Value="4294967040"/>
+          <FCUInt Name="DefaultShapeColor" Value="3435973887"/>
+          <FCUInt Name="DefaultShapeLineColor" Value="421075455"/>
+          <FCUInt Name="DefaultShapeVertexColor" Value="421075455"/>
+          <FCUInt Name="BoundingBoxColor" Value="4294967295"/>
+          <FCUInt Name="AnnotationTextColor" Value="3823363071"/>
+          <FCUInt Name="SketchEdgeColor" Value="4294967295"/>
+          <FCUInt Name="SketchVertexColor" Value="4294967295"/>
+          <FCUInt Name="EditedEdgeColor" Value="4294967295"/>
+          <FCUInt Name="EditedVertexColor" Value="4280680703"/>
+          <FCUInt Name="ConstructionColor" Value="56575"/>
+          <FCUInt Name="ExternalColor" Value="3425924095"/>
+          <FCUInt Name="InvalidSketchColor" Value="4285333759"/>
+          <FCUInt Name="FullyConstrainedColor" Value="16711935"/>
+          <FCUInt Name="InternalAlignedGeoColor" Value="2998042623"/>
+          <FCUInt Name="FullyConstraintElementColor" Value="2161156351"/>
+          <FCUInt Name="FullyConstraintConstructionElementColor" Value="2410282495"/>
+          <FCUInt Name="FullyConstraintInternalAlignmentColor" Value="3739142399"/>
+          <FCUInt Name="FullyConstraintConstructionPointColor" Value="4287987967"/>
+          <FCUInt Name="FrozenColor" Value="2147483647"/>
+          <FCUInt Name="DetachedColor" Value="478092543"/>
+          <FCUInt Name="MissingColor" Value="2130771967"/>
+          <FCUInt Name="ConstrainedIcoColor" Value="4280680703"/>
+          <FCUInt Name="NonDrivingConstrDimColor" Value="2555903"/>
+          <FCUInt Name="ConstrainedDimColor" Value="4280680703"/>
+          <FCUInt Name="ExprBasedConstrDimColor" Value="4286523135"/>
+          <FCUInt Name="DeactivatedConstrDimColor" Value="2139062271"/>
+          <FCUInt Name="CursorTextColor" Value="65535"/>
+          <FCUInt Name="CursorCrosshairColor" Value="4294967295"/>
+          <FCUInt Name="CreateLineColor" Value="3435973887"/>
+        </FCParamGroup>
+        <FCParamGroup Name="TreeView">
+          <FCBool Name="SyncView" Value="1"/>
+          <FCBool Name="SyncSelection" Value="1"/>
+          <FCBool Name="PreSelection" Value="1"/>
+          <FCBool Name="RecordSelection" Value="1"/>
+          <FCBool Name="CheckBoxesSelection" Value="1"/>
+          <FCBool Name="ResizableColumn" Value="0"/>
+          <FCBool Name="HideColumn" Value="0"/>
+          <FCBool Name="HideScrollBar" Value="1"/>
+          <FCBool Name="HideHeaderView" Value="1"/>
+          <FCInt Name="ColumnSize1" Value="135"/>
+          <FCInt Name="ColumnSize2" Value="84"/>
+          <FCInt Name="IconSize" Value="0"/>
+          <FCInt Name="FontSize" Value="0"/>
+          <FCInt Name="ItemSpacing" Value="0"/>
+          <FCInt Name="ItemBackgroundPadding" Value="10"/>
+          <FCUInt Name="ItemBackground" Value="0"/>
+          <FCUInt Name="TreeEditColor" Value="741092607"/>
+          <FCUInt Name="TreeActiveColor" Value="741092607"/>
+        </FCParamGroup>
+        <FCParamGroup Name="Commands">
+          <FCText Name="Web_OpenWebsite">StartWorkbench</FCText>
+          <FCText Name="Web_BrowserBack">StartWorkbench</FCText>
+          <FCText Name="Web_BrowserNext">StartWorkbench</FCText>
+          <FCText Name="Web_BrowserRefresh">StartWorkbench</FCText>
+          <FCText Name="Web_BrowserStop">StartWorkbench</FCText>
+          <FCText Name="Web_BrowserZoomIn">StartWorkbench</FCText>
+          <FCText Name="Web_BrowserZoomOut">StartWorkbench</FCText>
+          <FCText Name="Web_BrowserSetURL">StartWorkbench</FCText>
+          <FCText Name="Start_StartPage">StartWorkbench</FCText>
+          <FCText Name="PartDesign_WizardShaft">PartDesignWorkbench</FCText>
+          <FCText Name="PartDesign_WizardShaftCallBack">PartDesignWorkbench</FCText>
+          <FCText Name="Part_MakeSolid">PartDesignWorkbench</FCText>
+          <FCText Name="Part_ReverseShape">PartDesignWorkbench</FCText>
+          <FCText Name="Part_Boolean">PartDesignWorkbench</FCText>
+          <FCText Name="Part_Extrude">PartDesignWorkbench</FCText>
+          <FCText Name="Part_MakeFace">PartDesignWorkbench</FCText>
+          <FCText Name="Part_Mirror">PartDesignWorkbench</FCText>
+          <FCText Name="Part_Revolve">PartDesignWorkbench</FCText>
+          <FCText Name="Part_CrossSections">PartDesignWorkbench</FCText>
+          <FCText Name="Part_Fillet">PartDesignWorkbench</FCText>
+          <FCText Name="Part_Chamfer">PartDesignWorkbench</FCText>
+          <FCText Name="Part_Common">PartDesignWorkbench</FCText>
+          <FCText Name="Part_Cut">PartDesignWorkbench</FCText>
+          <FCText Name="Part_Fuse">PartDesignWorkbench</FCText>
+          <FCText Name="Part_CompJoinFeatures">PartDesignWorkbench</FCText>
+          <FCText Name="Part_CompSplitFeatures">PartDesignWorkbench</FCText>
+          <FCText Name="Part_CompCompoundTools">PartDesignWorkbench</FCText>
+          <FCText Name="Part_Compound">PartDesignWorkbench</FCText>
+          <FCText Name="Part_Section">PartDesignWorkbench</FCText>
+          <FCText Name="Part_Primitives">PartDesignWorkbench</FCText>
+          <FCText Name="Part_SubShapeBinder">PartDesignWorkbench</FCText>
+          <FCText Name="Part_Import">PartDesignWorkbench</FCText>
+          <FCText Name="Part_Export">PartDesignWorkbench</FCText>
+          <FCText Name="Part_ImportCurveNet">PartDesignWorkbench</FCText>
+          <FCText Name="Part_PickCurveNet">PartDesignWorkbench</FCText>
+          <FCText Name="Part_ShapeInfo">PartDesignWorkbench</FCText>
+          <FCText Name="Part_RuledSurface">PartDesignWorkbench</FCText>
+          <FCText Name="Part_Builder">PartDesignWorkbench</FCText>
+          <FCText Name="Part_Loft">PartDesignWorkbench</FCText>
+          <FCText Name="Part_Sweep">PartDesignWorkbench</FCText>
+          <FCText Name="Part_Offset">PartDesignWorkbench</FCText>
+          <FCText Name="Part_Offset2D">PartDesignWorkbench</FCText>
+          <FCText Name="Part_CompOffset">PartDesignWorkbench</FCText>
+          <FCText Name="Part_Thickness">PartDesignWorkbench</FCText>
+          <FCText Name="Part_CheckGeometry">PartDesignWorkbench</FCText>
+          <FCText Name="Part_ColorPerFace">PartDesignWorkbench</FCText>
+          <FCText Name="Part_Measure_Linear">PartDesignWorkbench</FCText>
+          <FCText Name="Part_Measure_Angular">PartDesignWorkbench</FCText>
+          <FCText Name="Part_Measure_Refresh">PartDesignWorkbench</FCText>
+          <FCText Name="Part_Measure_Clear_All">PartDesignWorkbench</FCText>
+          <FCText Name="Part_Measure_Toggle_All">PartDesignWorkbench</FCText>
+          <FCText Name="Part_Measure_Toggle_3D">PartDesignWorkbench</FCText>
+          <FCText Name="Part_Measure_Toggle_Delta">PartDesignWorkbench</FCText>
+          <FCText Name="Part_BoxSelection">PartDesignWorkbench</FCText>
+          <FCText Name="Part_ProjectionOnSurface">PartDesignWorkbench</FCText>
+          <FCText Name="Part_GeometryHistory">PartDesignWorkbench</FCText>
+          <FCText Name="Part_GeometryDerived">PartDesignWorkbench</FCText>
+          <FCText Name="Std_Macro_Presel_Part">PartDesignWorkbench</FCText>
+          <FCText Name="Std_Macro_Presel_PartMeasure">PartDesignWorkbench</FCText>
+          <FCText Name="Part_SimpleCylinder">PartDesignWorkbench</FCText>
+          <FCText Name="Part_ShapeFromMesh">PartDesignWorkbench</FCText>
+          <FCText Name="Part_PointsFromMesh">PartDesignWorkbench</FCText>
+          <FCText Name="Part_SimpleCopy">PartDesignWorkbench</FCText>
+          <FCText Name="Part_ElementCopy">PartDesignWorkbench</FCText>
+          <FCText Name="Part_TransformedCopy">PartDesignWorkbench</FCText>
+          <FCText Name="Part_RefineShape">PartDesignWorkbench</FCText>
+          <FCText Name="Part_Defeaturing">PartDesignWorkbench</FCText>
+          <FCText Name="Part_Cylinder">PartDesignWorkbench</FCText>
+          <FCText Name="Part_Box">PartDesignWorkbench</FCText>
+          <FCText Name="Part_Sphere">PartDesignWorkbench</FCText>
+          <FCText Name="Part_Cone">PartDesignWorkbench</FCText>
+          <FCText Name="Part_Torus">PartDesignWorkbench</FCText>
+          <FCText Name="Part_EditAttachment">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_NewSketch">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_EditSketch">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_LeaveSketch">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_StopOperation">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_ReorientSketch">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_MapSketch">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_ViewSketch">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_ValidateSketch">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_MirrorSketch">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_MergeSketches">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_ViewSection">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_CreatePoint">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_CreateArc">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_Create3PointArc">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_CompCreateArc">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_CreateCircle">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_Create3PointCircle">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_CompCreateCircle">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_CreateEllipseByCenter">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_CreateEllipseBy3Points">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_CompCreateConic">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_CreateArcOfEllipse">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_CreateArcOfHyperbola">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_CreateArcOfParabola">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_CreateBSpline">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_CreatePeriodicBSpline">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_CompCreateBSpline">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_CreateLine">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_CreatePolyline">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_CreateRectangle">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_CompCreateRegularPolygon">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_CreateTriangle">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_CreateSquare">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_CreatePentagon">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_CreateHexagon">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_CreateHeptagon">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_CreateOctagon">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_CreateRegularPolygon">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_CreateSlot">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_CompCreateFillets">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_CreateFillet">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_CreatePointFillet">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_Trimming">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_Extend">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_External">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_Defining">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_Detach">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_Attach">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_ToggleFreeze">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_Sync">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_FixExternal">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_ExternalCmds">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_CarbonCopy">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_ConstrainHorizontal">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_ConstrainVertical">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_ConstrainLock">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_ConstrainBlock">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_ConstrainCoincident">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_ConstrainParallel">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_ConstrainPerpendicular">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_ConstrainTangent">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_ConstrainDistance">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_ConstrainDistanceX">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_ConstrainDistanceY">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_ConstrainRadius">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_ConstrainDiameter">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_CompConstrainRadDia">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_ConstrainAngle">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_ConstrainEqual">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_ConstrainPointOnObject">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_ConstrainSymmetric">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_ConstrainSnellsLaw">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_ConstrainInternalAlignment">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_ToggleDrivingConstraint">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_ToggleActiveConstraint">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_ToggleConstruction">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_CloseShape">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_ConnectLines">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_SelectConstraints">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_SelectOrigin">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_SelectVerticalAxis">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_SelectHorizontalAxis">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_SelectRedundantConstraints">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_SelectConflictingConstraints">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_SelectMalformedConstraints">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_SelectPartiallyRedundantConstraints">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_SelectElementsAssociatedWithConstraints">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_SelectElementsWithDoFs">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_RestoreInternalAlignmentGeometry">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_Symmetry">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_Copy">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_Clone">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_Move">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_CompCopy">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_RectangularArray">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_DeleteAllGeometry">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_DeleteAllConstraints">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_ExportGeometry">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_ExportCompound">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_SwapGeometryID">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_BSplineDegree">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_BSplinePolygon">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_BSplineComb">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_BSplineKnotMultiplicity">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_BSplinePoleWeight">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_CompBSplineShowHideGeometryInformation">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_BSplineConvertToNURB">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_BSplineIncreaseDegree">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_BSplineDecreaseDegree">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_BSplineIncreaseKnotMultiplicity">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_BSplineDecreaseKnotMultiplicity">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_CompModifyKnotMultiplicity">PartDesignWorkbench</FCText>
+          <FCText Name="Sketcher_SwitchVirtualSpace">PartDesignWorkbench</FCText>
+          <FCText Name="PartDesign_ShapeBinder">PartDesignWorkbench</FCText>
+          <FCText Name="PartDesign_SubShapeBinder">PartDesignWorkbench</FCText>
+          <FCText Name="PartDesign_Clone">PartDesignWorkbench</FCText>
+          <FCText Name="PartDesign_Plane">PartDesignWorkbench</FCText>
+          <FCText Name="PartDesign_Line">PartDesignWorkbench</FCText>
+          <FCText Name="PartDesign_Point">PartDesignWorkbench</FCText>
+          <FCText Name="PartDesign_CoordinateSystem">PartDesignWorkbench</FCText>
+          <FCText Name="PartDesign_NewSketch">PartDesignWorkbench</FCText>
+          <FCText Name="PartDesign_Pad">PartDesignWorkbench</FCText>
+          <FCText Name="PartDesign_Extrusion">PartDesignWorkbench</FCText>
+          <FCText Name="PartDesign_Pocket">PartDesignWorkbench</FCText>
+          <FCText Name="PartDesign_Hole">PartDesignWorkbench</FCText>
+          <FCText Name="PartDesign_Revolution">PartDesignWorkbench</FCText>
+          <FCText Name="PartDesign_Groove">PartDesignWorkbench</FCText>
+          <FCText Name="PartDesign_AdditivePipe">PartDesignWorkbench</FCText>
+          <FCText Name="PartDesign_SubtractivePipe">PartDesignWorkbench</FCText>
+          <FCText Name="PartDesign_AdditiveLoft">PartDesignWorkbench</FCText>
+          <FCText Name="PartDesign_SubtractiveLoft">PartDesignWorkbench</FCText>
+          <FCText Name="PartDesign_AdditiveHelix">PartDesignWorkbench</FCText>
+          <FCText Name="PartDesign_SubtractiveHelix">PartDesignWorkbench</FCText>
+          <FCText Name="PartDesign_Fillet">PartDesignWorkbench</FCText>
+          <FCText Name="PartDesign_Draft">PartDesignWorkbench</FCText>
+          <FCText Name="PartDesign_Chamfer">PartDesignWorkbench</FCText>
+          <FCText Name="PartDesign_Thickness">PartDesignWorkbench</FCText>
+          <FCText Name="PartDesign_Mirrored">PartDesignWorkbench</FCText>
+          <FCText Name="PartDesign_LinearPattern">PartDesignWorkbench</FCText>
+          <FCText Name="PartDesign_PolarPattern">PartDesignWorkbench</FCText>
+          <FCText Name="PartDesign_Scaled">PartDesignWorkbench</FCText>
+          <FCText Name="PartDesign_GenericPattern">PartDesignWorkbench</FCText>
+          <FCText Name="PartDesign_MultiTransform">PartDesignWorkbench</FCText>
+          <FCText Name="PartDesign_Boolean">PartDesignWorkbench</FCText>
+          <FCText Name="PartDesign_Split">PartDesignWorkbench</FCText>
+          <FCText Name="PartDesign_Body">PartDesignWorkbench</FCText>
+          <FCText Name="PartDesign_Migrate">PartDesignWorkbench</FCText>
+          <FCText Name="PartDesign_MoveTip">PartDesignWorkbench</FCText>
+          <FCText Name="PartDesign_DuplicateSelection">PartDesignWorkbench</FCText>
+          <FCText Name="PartDesign_MoveFeature">PartDesignWorkbench</FCText>
+          <FCText Name="PartDesign_MoveFeatureInTree">PartDesignWorkbench</FCText>
+          <FCText Name="PartDesign_CompPrimitiveAdditive">PartDesignWorkbench</FCText>
+          <FCText Name="PartDesign_CompPrimitiveSubtractive">PartDesignWorkbench</FCText>
+          <FCText Name="PartDesign_InvoluteGear">PartDesignWorkbench</FCText>
+          <FCText Name="PartDesign_Sprocket">PartDesignWorkbench</FCText>
+          <FCText Name="Part_Tube">PartWorkbench</FCText>
+          <FCText Name="Part_CompoundFilter">PartWorkbench</FCText>
+          <FCText Name="Part_ExplodeCompound">PartWorkbench</FCText>
+          <FCText Name="Part_JoinCutout">PartWorkbench</FCText>
+          <FCText Name="Part_JoinEmbed">PartWorkbench</FCText>
+          <FCText Name="Part_JoinConnect">PartWorkbench</FCText>
+          <FCText Name="Part_BooleanFragments">PartWorkbench</FCText>
+          <FCText Name="Part_Slice">PartWorkbench</FCText>
+          <FCText Name="Part_SliceApart">PartWorkbench</FCText>
+          <FCText Name="Part_XOR">PartWorkbench</FCText>
+          <FCText Name="Spreadsheet_CreateSheet">SpreadsheetWorkbench</FCText>
+          <FCText Name="Spreadsheet_MergeCells">SpreadsheetWorkbench</FCText>
+          <FCText Name="Spreadsheet_SplitCell">SpreadsheetWorkbench</FCText>
+          <FCText Name="Spreadsheet_Import">SpreadsheetWorkbench</FCText>
+          <FCText Name="Spreadsheet_Export">SpreadsheetWorkbench</FCText>
+          <FCText Name="Spreadsheet_AlignLeft">SpreadsheetWorkbench</FCText>
+          <FCText Name="Spreadsheet_AlignCenter">SpreadsheetWorkbench</FCText>
+          <FCText Name="Spreadsheet_AlignRight">SpreadsheetWorkbench</FCText>
+          <FCText Name="Spreadsheet_AlignTop">SpreadsheetWorkbench</FCText>
+          <FCText Name="Spreadsheet_AlignVCenter">SpreadsheetWorkbench</FCText>
+          <FCText Name="Spreadsheet_AlignBottom">SpreadsheetWorkbench</FCText>
+          <FCText Name="Spreadsheet_StyleBold">SpreadsheetWorkbench</FCText>
+          <FCText Name="Spreadsheet_StyleItalic">SpreadsheetWorkbench</FCText>
+          <FCText Name="Spreadsheet_StyleUnderline">SpreadsheetWorkbench</FCText>
+          <FCText Name="Spreadsheet_SetAlias">SpreadsheetWorkbench</FCText>
+          <FCText Name="Sketcher_ProfilesHexagon1">SketcherWorkbench</FCText>
+          <FCText Name="Draft_Edit">ArchWorkbench</FCText>
+          <FCText Name="Draft_SelectPlane">ArchWorkbench</FCText>
+          <FCText Name="Draft_SetStyle">ArchWorkbench</FCText>
+          <FCText Name="Draft_WorkingPlaneProxy">ArchWorkbench</FCText>
+          <FCText Name="Draft_FinishLine">ArchWorkbench</FCText>
+          <FCText Name="Draft_CloseLine">ArchWorkbench</FCText>
+          <FCText Name="Draft_UndoLine">ArchWorkbench</FCText>
+          <FCText Name="Draft_ToggleConstructionMode">ArchWorkbench</FCText>
+          <FCText Name="Draft_ToggleContinueMode">ArchWorkbench</FCText>
+          <FCText Name="Draft_ToggleDisplayMode">ArchWorkbench</FCText>
+          <FCText Name="Draft_AddToGroup">ArchWorkbench</FCText>
+          <FCText Name="Draft_SelectGroup">ArchWorkbench</FCText>
+          <FCText Name="Draft_AutoGroup">ArchWorkbench</FCText>
+          <FCText Name="Draft_AddConstruction">ArchWorkbench</FCText>
+          <FCText Name="Draft_ToggleGrid">ArchWorkbench</FCText>
+          <FCText Name="Draft_Heal">ArchWorkbench</FCText>
+          <FCText Name="Draft_FlipDimension">ArchWorkbench</FCText>
+          <FCText Name="Draft_Slope">ArchWorkbench</FCText>
+          <FCText Name="Draft_CircularArray">ArchWorkbench</FCText>
+          <FCText Name="Draft_OrthoArray">ArchWorkbench</FCText>
+          <FCText Name="Draft_PathArray">ArchWorkbench</FCText>
+          <FCText Name="Draft_PathLinkArray">ArchWorkbench</FCText>
+          <FCText Name="Draft_PointArray">ArchWorkbench</FCText>
+          <FCText Name="Draft_PointLinkArray">ArchWorkbench</FCText>
+          <FCText Name="Draft_PolarArray">ArchWorkbench</FCText>
+          <FCText Name="Draft_PathTwistedArray">ArchWorkbench</FCText>
+          <FCText Name="Draft_PathTwistedLinkArray">ArchWorkbench</FCText>
+          <FCText Name="Draft_ArrayTools">ArchWorkbench</FCText>
+          <FCText Name="Draft_AnnotationStyleEditor">ArchWorkbench</FCText>
+          <FCText Name="Draft_Layer">ArchWorkbench</FCText>
+          <FCText Name="Draft_Line">ArchWorkbench</FCText>
+          <FCText Name="Draft_Wire">ArchWorkbench</FCText>
+          <FCText Name="Draft_Fillet">ArchWorkbench</FCText>
+          <FCText Name="Draft_BSpline">ArchWorkbench</FCText>
+          <FCText Name="Draft_BezCurve">ArchWorkbench</FCText>
+          <FCText Name="Draft_CubicBezCurve">ArchWorkbench</FCText>
+          <FCText Name="Draft_BezierTools">ArchWorkbench</FCText>
+          <FCText Name="Draft_Rectangle">ArchWorkbench</FCText>
+          <FCText Name="Draft_Arc">ArchWorkbench</FCText>
+          <FCText Name="Draft_Arc_3Points">ArchWorkbench</FCText>
+          <FCText Name="Draft_ArcTools">ArchWorkbench</FCText>
+          <FCText Name="Draft_Circle">ArchWorkbench</FCText>
+          <FCText Name="Draft_Polygon">ArchWorkbench</FCText>
+          <FCText Name="Draft_Ellipse">ArchWorkbench</FCText>
+          <FCText Name="Draft_Text">ArchWorkbench</FCText>
+          <FCText Name="Draft_Dimension">ArchWorkbench</FCText>
+          <FCText Name="Draft_ShapeString">ArchWorkbench</FCText>
+          <FCText Name="Draft_Point">ArchWorkbench</FCText>
+          <FCText Name="Draft_Facebinder">ArchWorkbench</FCText>
+          <FCText Name="Draft_Label">ArchWorkbench</FCText>
+          <FCText Name="Draft_SubelementHighlight">ArchWorkbench</FCText>
+          <FCText Name="Draft_Move">ArchWorkbench</FCText>
+          <FCText Name="Draft_ApplyStyle">ArchWorkbench</FCText>
+          <FCText Name="Draft_Rotate">ArchWorkbench</FCText>
+          <FCText Name="Draft_Offset">ArchWorkbench</FCText>
+          <FCText Name="Draft_Stretch">ArchWorkbench</FCText>
+          <FCText Name="Draft_Join">ArchWorkbench</FCText>
+          <FCText Name="Draft_Split">ArchWorkbench</FCText>
+          <FCText Name="Draft_Upgrade">ArchWorkbench</FCText>
+          <FCText Name="Draft_Downgrade">ArchWorkbench</FCText>
+          <FCText Name="Draft_Trimex">ArchWorkbench</FCText>
+          <FCText Name="Draft_Scale">ArchWorkbench</FCText>
+          <FCText Name="Draft_Drawing">ArchWorkbench</FCText>
+          <FCText Name="Draft_WireToBSpline">ArchWorkbench</FCText>
+          <FCText Name="Draft_Shape2DView">ArchWorkbench</FCText>
+          <FCText Name="Draft_Draft2Sketch">ArchWorkbench</FCText>
+          <FCText Name="Draft_Array">ArchWorkbench</FCText>
+          <FCText Name="Draft_LinkArray">ArchWorkbench</FCText>
+          <FCText Name="Draft_Clone">ArchWorkbench</FCText>
+          <FCText Name="Draft_Mirror">ArchWorkbench</FCText>
+          <FCText Name="Draft_Snap_Lock">ArchWorkbench</FCText>
+          <FCText Name="Draft_Snap_Midpoint">ArchWorkbench</FCText>
+          <FCText Name="Draft_Snap_Perpendicular">ArchWorkbench</FCText>
+          <FCText Name="Draft_Snap_Grid">ArchWorkbench</FCText>
+          <FCText Name="Draft_Snap_Intersection">ArchWorkbench</FCText>
+          <FCText Name="Draft_Snap_Parallel">ArchWorkbench</FCText>
+          <FCText Name="Draft_Snap_Endpoint">ArchWorkbench</FCText>
+          <FCText Name="Draft_Snap_Angle">ArchWorkbench</FCText>
+          <FCText Name="Draft_Snap_Center">ArchWorkbench</FCText>
+          <FCText Name="Draft_Snap_Extension">ArchWorkbench</FCText>
+          <FCText Name="Draft_Snap_Near">ArchWorkbench</FCText>
+          <FCText Name="Draft_Snap_Ortho">ArchWorkbench</FCText>
+          <FCText Name="Draft_Snap_Special">ArchWorkbench</FCText>
+          <FCText Name="Draft_Snap_Dimensions">ArchWorkbench</FCText>
+          <FCText Name="Draft_Snap_WorkingPlane">ArchWorkbench</FCText>
+          <FCText Name="Draft_ShowSnapBar">ArchWorkbench</FCText>
+          <FCText Name="Arch_Add">ArchWorkbench</FCText>
+          <FCText Name="Arch_Remove">ArchWorkbench</FCText>
+          <FCText Name="Arch_SplitMesh">ArchWorkbench</FCText>
+          <FCText Name="Arch_MeshToShape">ArchWorkbench</FCText>
+          <FCText Name="Arch_SelectNonSolidMeshes">ArchWorkbench</FCText>
+          <FCText Name="Arch_RemoveShape">ArchWorkbench</FCText>
+          <FCText Name="Arch_CloseHoles">ArchWorkbench</FCText>
+          <FCText Name="Arch_Check">ArchWorkbench</FCText>
+          <FCText Name="Arch_Survey">ArchWorkbench</FCText>
+          <FCText Name="Arch_ToggleIfcBrepFlag">ArchWorkbench</FCText>
+          <FCText Name="Arch_Component">ArchWorkbench</FCText>
+          <FCText Name="Arch_CloneComponent">ArchWorkbench</FCText>
+          <FCText Name="Arch_IfcSpreadsheet">ArchWorkbench</FCText>
+          <FCText Name="Arch_ToggleSubs">ArchWorkbench</FCText>
+          <FCText Name="Arch_Wall">ArchWorkbench</FCText>
+          <FCText Name="Arch_MergeWalls">ArchWorkbench</FCText>
+          <FCText Name="Arch_Floor">ArchWorkbench</FCText>
+          <FCText Name="Arch_Fence">ArchWorkbench</FCText>
+          <FCText Name="Arch_Project">ArchWorkbench</FCText>
+          <FCText Name="Arch_Site">ArchWorkbench</FCText>
+          <FCText Name="Arch_Building">ArchWorkbench</FCText>
+          <FCText Name="Arch_Profile">ArchWorkbench</FCText>
+          <FCText Name="Arch_Structure">ArchWorkbench</FCText>
+          <FCText Name="Arch_SectionPlane">ArchWorkbench</FCText>
+          <FCText Name="Arch_Window">ArchWorkbench</FCText>
+          <FCText Name="Arch_Axis">ArchWorkbench</FCText>
+          <FCText Name="Arch_AxisSystem">ArchWorkbench</FCText>
+          <FCText Name="Arch_Grid">ArchWorkbench</FCText>
+          <FCText Name="Arch_AxisTools">ArchWorkbench</FCText>
+          <FCText Name="Arch_Roof">ArchWorkbench</FCText>
+          <FCText Name="Arch_Space">ArchWorkbench</FCText>
+          <FCText Name="Arch_Pipe">ArchWorkbench</FCText>
+          <FCText Name="Arch_PipeConnector">ArchWorkbench</FCText>
+          <FCText Name="Arch_PipeTools">ArchWorkbench</FCText>
+          <FCText Name="Arch_Stairs">ArchWorkbench</FCText>
+          <FCText Name="Arch_Rebar">ArchWorkbench</FCText>
+          <FCText Name="Arch_Frame">ArchWorkbench</FCText>
+          <FCText Name="Arch_Panel">ArchWorkbench</FCText>
+          <FCText Name="Arch_Panel_Cut">ArchWorkbench</FCText>
+          <FCText Name="Arch_Panel_Sheet">ArchWorkbench</FCText>
+          <FCText Name="Arch_Nest">ArchWorkbench</FCText>
+          <FCText Name="Arch_PanelTools">ArchWorkbench</FCText>
+          <FCText Name="Arch_Equipment">ArchWorkbench</FCText>
+          <FCText Name="Arch_3Views">ArchWorkbench</FCText>
+          <FCText Name="Arch_CutPlane">ArchWorkbench</FCText>
+          <FCText Name="Arch_CutLine">ArchWorkbench</FCText>
+          <FCText Name="Arch_Material">ArchWorkbench</FCText>
+          <FCText Name="Arch_MultiMaterial">ArchWorkbench</FCText>
+          <FCText Name="Arch_MaterialTools">ArchWorkbench</FCText>
+          <FCText Name="Arch_Schedule">ArchWorkbench</FCText>
+          <FCText Name="Arch_BuildingPart">ArchWorkbench</FCText>
+          <FCText Name="Arch_Reference">ArchWorkbench</FCText>
+          <FCText Name="Arch_Truss">ArchWorkbench</FCText>
+          <FCText Name="Arch_CurtainWall">ArchWorkbench</FCText>
+          <FCText Name="FEM_ConstraintBearing">FemWorkbench</FCText>
+          <FCText Name="FEM_ConstraintContact">FemWorkbench</FCText>
+          <FCText Name="FEM_ConstraintDisplacement">FemWorkbench</FCText>
+          <FCText Name="FEM_ConstraintFixed">FemWorkbench</FCText>
+          <FCText Name="FEM_ConstraintFluidBoundary">FemWorkbench</FCText>
+          <FCText Name="FEM_ConstraintForce">FemWorkbench</FCText>
+          <FCText Name="FEM_ConstraintGear">FemWorkbench</FCText>
+          <FCText Name="FEM_ConstraintHeatflux">FemWorkbench</FCText>
+          <FCText Name="FEM_ConstraintInitialTemperature">FemWorkbench</FCText>
+          <FCText Name="FEM_ConstraintPlaneRotation">FemWorkbench</FCText>
+          <FCText Name="FEM_ConstraintPressure">FemWorkbench</FCText>
+          <FCText Name="FEM_ConstraintPulley">FemWorkbench</FCText>
+          <FCText Name="FEM_ConstraintTemperature">FemWorkbench</FCText>
+          <FCText Name="FEM_ConstraintTransform">FemWorkbench</FCText>
+          <FCText Name="FEM_CreateNodesSet">FemWorkbench</FCText>
+          <FCText Name="FEM_DefineNodesSet">FemWorkbench</FCText>
+          <FCText Name="FEM_PostFilterClipRegion">FemWorkbench</FCText>
+          <FCText Name="FEM_PostFilterCutFunction">FemWorkbench</FCText>
+          <FCText Name="FEM_PostFilterDataAlongLine">FemWorkbench</FCText>
+          <FCText Name="FEM_PostFilterDataAtPoint">FemWorkbench</FCText>
+          <FCText Name="FEM_PostFilterLinearizedStresses">FemWorkbench</FCText>
+          <FCText Name="FEM_PostFilterClipScalar">FemWorkbench</FCText>
+          <FCText Name="FEM_PostFilterWarp">FemWorkbench</FCText>
+          <FCText Name="FEM_PostCreateFunctions">FemWorkbench</FCText>
+          <FCText Name="FEM_PostApplyChanges">FemWorkbench</FCText>
+          <FCText Name="FEM_PostPipelineFromResult">FemWorkbench</FCText>
+          <FCText Name="FEM_Analysis">FemWorkbench</FCText>
+          <FCText Name="FEM_ClippingPlaneAdd">FemWorkbench</FCText>
+          <FCText Name="FEM_ClippingPlaneRemoveAll">FemWorkbench</FCText>
+          <FCText Name="FEM_ConstantVacuumPermittivity">FemWorkbench</FCText>
+          <FCText Name="FEM_ConstraintBodyHeatSource">FemWorkbench</FCText>
+          <FCText Name="FEM_ConstraintElectrostaticPotential">FemWorkbench</FCText>
+          <FCText Name="FEM_ConstraintFlowVelocity">FemWorkbench</FCText>
+          <FCText Name="FEM_ConstraintInitialFlowVelocity">FemWorkbench</FCText>
+          <FCText Name="FEM_ConstraintSectionPrint">FemWorkbench</FCText>
+          <FCText Name="FEM_ConstraintSelfWeight">FemWorkbench</FCText>
+          <FCText Name="FEM_ConstraintTie">FemWorkbench</FCText>
+          <FCText Name="FEM_ElementFluid1D">FemWorkbench</FCText>
+          <FCText Name="FEM_ElementGeometry1D">FemWorkbench</FCText>
+          <FCText Name="FEM_ElementGeometry2D">FemWorkbench</FCText>
+          <FCText Name="FEM_ElementRotation1D">FemWorkbench</FCText>
+          <FCText Name="FEM_EquationElectrostatic">FemWorkbench</FCText>
+          <FCText Name="FEM_EquationElasticity">FemWorkbench</FCText>
+          <FCText Name="FEM_EquationFlow">FemWorkbench</FCText>
+          <FCText Name="FEM_EquationFlux">FemWorkbench</FCText>
+          <FCText Name="FEM_EquationElectricforce">FemWorkbench</FCText>
+          <FCText Name="FEM_EquationHeat">FemWorkbench</FCText>
+          <FCText Name="FEM_Examples">FemWorkbench</FCText>
+          <FCText Name="FEM_MaterialEditor">FemWorkbench</FCText>
+          <FCText Name="FEM_MaterialFluid">FemWorkbench</FCText>
+          <FCText Name="FEM_MaterialMechanicalNonlinear">FemWorkbench</FCText>
+          <FCText Name="FEM_MaterialReinforced">FemWorkbench</FCText>
+          <FCText Name="FEM_MaterialSolid">FemWorkbench</FCText>
+          <FCText Name="FEM_FEMMesh2Mesh">FemWorkbench</FCText>
+          <FCText Name="FEM_MeshBoundaryLayer">FemWorkbench</FCText>
+          <FCText Name="FEM_MeshClear">FemWorkbench</FCText>
+          <FCText Name="FEM_MeshDisplayInfo">FemWorkbench</FCText>
+          <FCText Name="FEM_MeshGmshFromShape">FemWorkbench</FCText>
+          <FCText Name="FEM_MeshGroup">FemWorkbench</FCText>
+          <FCText Name="FEM_MeshNetgenFromShape">FemWorkbench</FCText>
+          <FCText Name="FEM_MeshRegion">FemWorkbench</FCText>
+          <FCText Name="FEM_ResultShow">FemWorkbench</FCText>
+          <FCText Name="FEM_ResultsPurge">FemWorkbench</FCText>
+          <FCText Name="FEM_SolverCalculixCxxtools">FemWorkbench</FCText>
+          <FCText Name="FEM_SolverCalculiX">FemWorkbench</FCText>
+          <FCText Name="FEM_SolverControl">FemWorkbench</FCText>
+          <FCText Name="FEM_SolverElmer">FemWorkbench</FCText>
+          <FCText Name="FEM_SolverRun">FemWorkbench</FCText>
+          <FCText Name="FEM_SolverZ88">FemWorkbench</FCText>
+          <FCText Name="Path_Compound">PathWorkbench</FCText>
+          <FCText Name="Path_Shape">PathWorkbench</FCText>
+          <FCText Name="Path_Area">PathWorkbench</FCText>
+          <FCText Name="Path_Area_Workplane">PathWorkbench</FCText>
+          <FCText Name="Path_ToolController">PathWorkbench</FCText>
+          <FCText Name="Path_Job">PathWorkbench</FCText>
+          <FCText Name="Path_ExportTemplate">PathWorkbench</FCText>
+          <FCText Name="Path_ToolBitCreate">PathWorkbench</FCText>
+          <FCText Name="Path_ToolBitLoad">PathWorkbench</FCText>
+          <FCText Name="Path_ToolBitSave">PathWorkbench</FCText>
+          <FCText Name="Path_ToolBitSaveAs">PathWorkbench</FCText>
+          <FCText Name="Path_ToolBitLibraryOpen">PathWorkbench</FCText>
+          <FCText Name="Path_ToolBitDock">PathWorkbench</FCText>
+          <FCText Name="Path_SelectLoop">PathWorkbench</FCText>
+          <FCText Name="Path_OpActiveToggle">PathWorkbench</FCText>
+          <FCText Name="Path_OperationCopy">PathWorkbench</FCText>
+          <FCText Name="Path_SetStartPoint">PathWorkbench</FCText>
+          <FCText Name="Path_Adaptive">PathWorkbench</FCText>
+          <FCText Name="Path_Array">PathWorkbench</FCText>
+          <FCText Name="Path_Comment">PathWorkbench</FCText>
+          <FCText Name="Path_Custom">PathWorkbench</FCText>
+          <FCText Name="Path_Deburr">PathWorkbench</FCText>
+          <FCText Name="Path_DressupAxisMap">PathWorkbench</FCText>
+          <FCText Name="Path_DressupDogbone">PathWorkbench</FCText>
+          <FCText Name="Path_DressupDragKnife">PathWorkbench</FCText>
+          <FCText Name="Path_DressupLeadInOut">PathWorkbench</FCText>
+          <FCText Name="Path_DressupPathBoundary">PathWorkbench</FCText>
+          <FCText Name="Path_DressupRampEntry">PathWorkbench</FCText>
+          <FCText Name="Path_DressupTag">PathWorkbench</FCText>
+          <FCText Name="Path_DressupZCorrect">PathWorkbench</FCText>
+          <FCText Name="Path_Drilling">PathWorkbench</FCText>
+          <FCText Name="Path_Engrave">PathWorkbench</FCText>
+          <FCText Name="Path_Fixture">PathWorkbench</FCText>
+          <FCText Name="Path_Helix">PathWorkbench</FCText>
+          <FCText Name="Path_Hop">PathWorkbench</FCText>
+          <FCText Name="Path_Inspect">PathWorkbench</FCText>
+          <FCText Name="Path_MillFace">PathWorkbench</FCText>
+          <FCText Name="Path_Pocket_3D">PathWorkbench</FCText>
+          <FCText Name="Path_Pocket_Shape">PathWorkbench</FCText>
+          <FCText Name="Path_Post">PathWorkbench</FCText>
+          <FCText Name="Path_Probe">PathWorkbench</FCText>
+          <FCText Name="Path_Profile">PathWorkbench</FCText>
+          <FCText Name="Path_PropertyBag">PathWorkbench</FCText>
+          <FCText Name="Path_Sanity">PathWorkbench</FCText>
+          <FCText Name="Path_SimpleCopy">PathWorkbench</FCText>
+          <FCText Name="Path_Simulator">PathWorkbench</FCText>
+          <FCText Name="Path_Slot">PathWorkbench</FCText>
+          <FCText Name="Path_Stop">PathWorkbench</FCText>
+          <FCText Name="Path_Thread_Milling">PathWorkbench</FCText>
+          <FCText Name="Path_ToolLibraryEdit">PathWorkbench</FCText>
+          <FCText Name="Path_Vcarve">PathWorkbench</FCText>
+          <FCText Name="Path_EngraveTools">PathWorkbench</FCText>
+          <FCText Name="Image_Open">ImageWorkbench</FCText>
+          <FCText Name="Image_CreateImagePlane">ImageWorkbench</FCText>
+          <FCText Name="Image_Scaling">ImageWorkbench</FCText>
+          <FCText Name="Surface_Filling">SurfaceWorkbench</FCText>
+          <FCText Name="Surface_GeomFillSurface">SurfaceWorkbench</FCText>
+          <FCText Name="Surface_Sections">SurfaceWorkbench</FCText>
+          <FCText Name="Surface_ExtendFace">SurfaceWorkbench</FCText>
+          <FCText Name="Surface_CurveOnMesh">SurfaceWorkbench</FCText>
+          <FCText Name="Mesh_Import">MeshWorkbench</FCText>
+          <FCText Name="Mesh_Export">MeshWorkbench</FCText>
+          <FCText Name="Mesh_VertexCurvature">MeshWorkbench</FCText>
+          <FCText Name="Mesh_CurvatureInfo">MeshWorkbench</FCText>
+          <FCText Name="Mesh_Union">MeshWorkbench</FCText>
+          <FCText Name="Mesh_Difference">MeshWorkbench</FCText>
+          <FCText Name="Mesh_Intersection">MeshWorkbench</FCText>
+          <FCText Name="Mesh_PolySegm">MeshWorkbench</FCText>
+          <FCText Name="Mesh_AddFacet">MeshWorkbench</FCText>
+          <FCText Name="Mesh_PolyCut">MeshWorkbench</FCText>
+          <FCText Name="Mesh_PolySplit">MeshWorkbench</FCText>
+          <FCText Name="Mesh_PolyTrim">MeshWorkbench</FCText>
+          <FCText Name="Mesh_TrimByPlane">MeshWorkbench</FCText>
+          <FCText Name="Mesh_SectionByPlane">MeshWorkbench</FCText>
+          <FCText Name="Mesh_CrossSections">MeshWorkbench</FCText>
+          <FCText Name="Mesh_Evaluation">MeshWorkbench</FCText>
+          <FCText Name="Mesh_EvaluateFacet">MeshWorkbench</FCText>
+          <FCText Name="Mesh_EvaluateSolid">MeshWorkbench</FCText>
+          <FCText Name="Mesh_HarmonizeNormals">MeshWorkbench</FCText>
+          <FCText Name="Mesh_FlipNormals">MeshWorkbench</FCText>
+          <FCText Name="Mesh_Smoothing">MeshWorkbench</FCText>
+          <FCText Name="Mesh_Decimating">MeshWorkbench</FCText>
+          <FCText Name="Mesh_BoundingBox">MeshWorkbench</FCText>
+          <FCText Name="Mesh_BuildRegularSolid">MeshWorkbench</FCText>
+          <FCText Name="Mesh_FillupHoles">MeshWorkbench</FCText>
+          <FCText Name="Mesh_RemoveComponents">MeshWorkbench</FCText>
+          <FCText Name="Mesh_RemeshGmsh">MeshWorkbench</FCText>
+          <FCText Name="Mesh_FillInteractiveHole">MeshWorkbench</FCText>
+          <FCText Name="Mesh_RemoveCompByHand">MeshWorkbench</FCText>
+          <FCText Name="Mesh_FromGeometry">MeshWorkbench</FCText>
+          <FCText Name="Mesh_FromPartShape">MeshWorkbench</FCText>
+          <FCText Name="Mesh_Segmentation">MeshWorkbench</FCText>
+          <FCText Name="Mesh_SegmentationBestFit">MeshWorkbench</FCText>
+          <FCText Name="Mesh_Merge">MeshWorkbench</FCText>
+          <FCText Name="Mesh_SplitComponents">MeshWorkbench</FCText>
+          <FCText Name="Mesh_Scale">MeshWorkbench</FCText>
+          <FCText Name="MeshPart_Mesher">MeshWorkbench</FCText>
+          <FCText Name="MeshPart_TrimByPlane">MeshWorkbench</FCText>
+          <FCText Name="MeshPart_SectionByPlane">MeshWorkbench</FCText>
+          <FCText Name="MeshPart_CrossSections">MeshWorkbench</FCText>
+          <FCText Name="MeshPart_CurveOnMesh">MeshWorkbench</FCText>
+          <FCText Name="MeshPart_CreateFlatMesh">MeshWorkbench</FCText>
+          <FCText Name="MeshPart_CreateFlatFace">MeshWorkbench</FCText>
+          <FCText Name="TechDraw_PageDefault">TechDrawWorkbench</FCText>
+          <FCText Name="TechDraw_PageTemplate">TechDrawWorkbench</FCText>
+          <FCText Name="TechDraw_RedrawPage">TechDrawWorkbench</FCText>
+          <FCText Name="TechDraw_View">TechDrawWorkbench</FCText>
+          <FCText Name="TechDraw_ActiveView">TechDrawWorkbench</FCText>
+          <FCText Name="TechDraw_SectionView">TechDrawWorkbench</FCText>
+          <FCText Name="TechDraw_DetailView">TechDrawWorkbench</FCText>
+          <FCText Name="TechDraw_ProjectionGroup">TechDrawWorkbench</FCText>
+          <FCText Name="TechDraw_ClipGroup">TechDrawWorkbench</FCText>
+          <FCText Name="TechDraw_ClipGroupAdd">TechDrawWorkbench</FCText>
+          <FCText Name="TechDraw_ClipGroupRemove">TechDrawWorkbench</FCText>
+          <FCText Name="TechDraw_Symbol">TechDrawWorkbench</FCText>
+          <FCText Name="TechDraw_ExportPageSVG">TechDrawWorkbench</FCText>
+          <FCText Name="TechDraw_ExportPageDXF">TechDrawWorkbench</FCText>
+          <FCText Name="TechDraw_DraftView">TechDrawWorkbench</FCText>
+          <FCText Name="TechDraw_ArchView">TechDrawWorkbench</FCText>
+          <FCText Name="TechDraw_SpreadsheetView">TechDrawWorkbench</FCText>
+          <FCText Name="TechDraw_Balloon">TechDrawWorkbench</FCText>
+          <FCText Name="TechDraw_Dimension">TechDrawWorkbench</FCText>
+          <FCText Name="TechDraw_RadiusDimension">TechDrawWorkbench</FCText>
+          <FCText Name="TechDraw_DiameterDimension">TechDrawWorkbench</FCText>
+          <FCText Name="TechDraw_LengthDimension">TechDrawWorkbench</FCText>
+          <FCText Name="TechDraw_HorizontalDimension">TechDrawWorkbench</FCText>
+          <FCText Name="TechDraw_VerticalDimension">TechDrawWorkbench</FCText>
+          <FCText Name="TechDraw_AngleDimension">TechDrawWorkbench</FCText>
+          <FCText Name="TechDraw_3PtAngleDimension">TechDrawWorkbench</FCText>
+          <FCText Name="TechDraw_ExtentGroup">TechDrawWorkbench</FCText>
+          <FCText Name="TechDraw_VerticalExtentDimension">TechDrawWorkbench</FCText>
+          <FCText Name="TechDraw_HorizontalExtentDimension">TechDrawWorkbench</FCText>
+          <FCText Name="TechDraw_LinkDimension">TechDrawWorkbench</FCText>
+          <FCText Name="TechDraw_LandmarkDimension">TechDrawWorkbench</FCText>
+          <FCText Name="TechDraw_Hatch">TechDrawWorkbench</FCText>
+          <FCText Name="TechDraw_GeometricHatch">TechDrawWorkbench</FCText>
+          <FCText Name="TechDraw_Image">TechDrawWorkbench</FCText>
+          <FCText Name="TechDraw_ToggleFrame">TechDrawWorkbench</FCText>
+          <FCText Name="TechDraw_LeaderLine">TechDrawWorkbench</FCText>
+          <FCText Name="TechDraw_RichTextAnnotation">TechDrawWorkbench</FCText>
+          <FCText Name="TechDraw_CosmeticVertexGroup">TechDrawWorkbench</FCText>
+          <FCText Name="TechDraw_CosmeticVertex">TechDrawWorkbench</FCText>
+          <FCText Name="TechDraw_Midpoints">TechDrawWorkbench</FCText>
+          <FCText Name="TechDraw_Quadrants">TechDrawWorkbench</FCText>
+          <FCText Name="TechDraw_CenterLineGroup">TechDrawWorkbench</FCText>
+          <FCText Name="TechDraw_FaceCenterLine">TechDrawWorkbench</FCText>
+          <FCText Name="TechDraw_2LineCenterLine">TechDrawWorkbench</FCText>
+          <FCText Name="TechDraw_2PointCenterLine">TechDrawWorkbench</FCText>
+          <FCText Name="TechDraw_2PointCosmeticLine">TechDrawWorkbench</FCText>
+          <FCText Name="TechDraw_Annotation">TechDrawWorkbench</FCText>
+          <FCText Name="TechDraw_CosmeticEraser">TechDrawWorkbench</FCText>
+          <FCText Name="TechDraw_DecorateLine">TechDrawWorkbench</FCText>
+          <FCText Name="TechDraw_ShowAll">TechDrawWorkbench</FCText>
+          <FCText Name="TechDraw_WeldSymbol">TechDrawWorkbench</FCText>
+        </FCParamGroup>
+        <FCParamGroup Name="Document">
+          <FCText Name="SaveBackupDateFormat">%Y%m%d-%H%M%S</FCText>
+          <FCText Name="prefLicenseUrl">http://en.wikipedia.org/wiki/All_rights_reserved</FCText>
+          <FCBool Name="CreateNewDoc" Value="1"/>
+          <FCBool Name="UsingUndo" Value="1"/>
+          <FCBool Name="SaveTransactions" Value="0"/>
+          <FCBool Name="TransactionsDiscard" Value="0"/>
+          <FCBool Name="SaveThumbnail" Value="0"/>
+          <FCBool Name="AddThumbnailLogo" Value="1"/>
+          <FCBool Name="CreateBackupFiles" Value="1"/>
+          <FCBool Name="UseFCBakExtension" Value="0"/>
+          <FCBool Name="DuplicateLabels" Value="0"/>
+          <FCBool Name="NoPartialLoading" Value="0"/>
+          <FCBool Name="prefSetAuthorOnSave" Value="0"/>
+          <FCBool Name="RecoveryEnabled" Value="1"/>
+          <FCBool Name="AutoSaveEnabled" Value="1"/>
+          <FCBool Name="CanAbortRecompute" Value="1"/>
+          <FCBool Name="WarnRecomputeOnRestore" Value="1"/>
+          <FCBool Name="TransactionOnRecompute" Value="0"/>
+          <FCBool Name="ThumbnailNoBackground" Value="0"/>
+          <FCInt Name="CompressionLevel" Value="3"/>
+          <FCInt Name="MaxUndoSize" Value="20"/>
+          <FCInt Name="ThumbnailSize" Value="128"/>
+          <FCInt Name="CountBackupFiles" Value="1"/>
+          <FCInt Name="prefLicenseType" Value="0"/>
+          <FCInt Name="AutoSaveTimeout" Value="15"/>
+          <FCInt Name="ThumbnailSampleSize" Value="0"/>
+        </FCParamGroup>
+        <FCParamGroup Name="OutputWindow">
+          <FCBool Name="checkMessage" Value="1"/>
+          <FCBool Name="checkLogging" Value="0"/>
+          <FCBool Name="checkWarning" Value="1"/>
+          <FCBool Name="checkError" Value="1"/>
+          <FCBool Name="checkShowReportViewOnWarning" Value="1"/>
+          <FCBool Name="checkShowReportViewOnError" Value="1"/>
+          <FCBool Name="checkShowReportViewOnNormalMessage" Value="0"/>
+          <FCBool Name="checkShowReportViewOnLogMessage" Value="0"/>
+          <FCBool Name="checkShowReportTimecode" Value="1"/>
+          <FCBool Name="RedirectPythonOutput" Value="1"/>
+          <FCBool Name="RedirectPythonErrors" Value="1"/>
+          <FCUInt Name="colorText" Value="3351904255"/>
+          <FCUInt Name="colorLogging" Value="2462274559"/>
+          <FCUInt Name="colorWarning" Value="4057425407"/>
+          <FCUInt Name="colorError" Value="4182928383"/>
+        </FCParamGroup>
+        <FCParamGroup Name="Editor">
+          <FCText Name="Font">Cascadia Code SemiLight</FCText>
+          <FCBool Name="EnableLineNumber" Value="1"/>
+          <FCBool Name="EnableFolding" Value="1"/>
+          <FCBool Name="Tabs" Value="0"/>
+          <FCBool Name="Spaces" Value="1"/>
+          <FCInt Name="TabSize" Value="4"/>
+          <FCInt Name="IndentSize" Value="4"/>
+          <FCInt Name="FontSize" Value="12"/>
+          <FCUInt Name="Text" Value="3705461760"/>
+          <FCUInt Name="Bookmark" Value="2120569088"/>
+          <FCUInt Name="Breakpoint" Value="2351902464"/>
+          <FCUInt Name="Keyword" Value="1453118976"/>
+          <FCUInt Name="Comment" Value="1470515712"/>
+          <FCUInt Name="Block comment" Value="1470515712"/>
+          <FCUInt Name="Number" Value="3050219520"/>
+          <FCUInt Name="String" Value="3600647424"/>
+          <FCUInt Name="Character" Value="3600647424"/>
+          <FCUInt Name="Class name" Value="1321840640"/>
+          <FCUInt Name="Define name" Value="1321840640"/>
+          <FCUInt Name="Operator" Value="3031741440"/>
+          <FCUInt Name="Python output" Value="4059164928"/>
+          <FCUInt Name="Python error" Value="3629142016"/>
+          <FCUInt Name="Current line highlight" Value="3772833792"/>
+        </FCParamGroup>
+        <FCParamGroup Name="Expression">
+          <FCText Name="EditorTrigger">=</FCText>
+          <FCBool Name="AutoHideEditorIcon" Value="1"/>
+          <FCBool Name="NoSystemBackground" Value="0"/>
+          <FCInt Name="EditDialogBGAlpha" Value="1"/>
+        </FCParamGroup>
+        <FCParamGroup Name="PropertyView"/>
+        <FCParamGroup Name="Link">
+          <FCText Name="ActiveContainerKey"/>
+          <FCBool Name="HideScaleVector" Value="1"/>
+          <FCBool Name="CreateInPlace" Value="1"/>
+          <FCBool Name="CreateInContainer" Value="0"/>
+          <FCBool Name="CopyOnChangeApplyToAll" Value="1"/>
+        </FCParamGroup>
+        <FCParamGroup Name="RecentFiles">
+          <FCInt Name="RecentFiles" Value="4"/>
+        </FCParamGroup>
+        <FCParamGroup Name="Shortcut"/>
+        <FCParamGroup Name="RecentMacros">
+          <FCInt Name="RecentMacros" Value="12"/>
+          <FCInt Name="ShortcutCount" Value="3"/>
+        </FCParamGroup>
+        <FCParamGroup Name="Browser"/>
+        <FCParamGroup Name="NaviCube">
+          <FCText Name="TextFront">F</FCText>
+          <FCText Name="TextRear">B</FCText>
+          <FCText Name="TextTop">U</FCText>
+          <FCText Name="TextRight">R</FCText>
+          <FCText Name="TextLeft">L</FCText>
+          <FCText Name="FontString">Segoe UI Variable Display</FCText>
+          <FCText Name="TextBottom">D</FCText>
+          <FCBool Name="NaviRotateToNearest" Value="1"/>
+          <FCBool Name="FontItalic" Value="0"/>
+          <FCBool Name="FontAutoSize" Value="1"/>
+          <FCInt Name="CubeSize" Value="128"/>
+          <FCInt Name="FontSize" Value="61"/>
+          <FCInt Name="FontWeight" Value="50"/>
+          <FCInt Name="FontStretch" Value="92"/>
+          <FCInt Name="OffsetX" Value="482"/>
+          <FCInt Name="OffsetY" Value="7"/>
+          <FCFloat Name="FontScale" Value="0.640000000000"/>
+          <FCUInt Name="EdgeColor" Value="3006937658"/>
+          <FCUInt Name="TextColor" Value="3372220415"/>
+          <FCUInt Name="HiliteColor" Value="3865103871"/>
+          <FCUInt Name="FrontColor" Value="3005556005"/>
+          <FCUInt Name="CornerColor" Value="3004963868"/>
+          <FCUInt Name="ButtonColor" Value="3008253518"/>
+          <FCUInt Name="BorderColor" Value="4281479730"/>
+        </FCParamGroup>
+        <FCParamGroup Name="Dialog">
+          <FCBool Name="DontUseNativeDialog" Value="0"/>
+        </FCParamGroup>
+        <FCParamGroup Name="ParameterEditor">
+          <FCParamGroup Name="LastGroup">
+            <FCText Name="User parameter">BaseApp.Workbenches</FCText>
+          </FCParamGroup>
+          <FCText Name="Geometry">(517,303,1540,1070)</FCText>
+          <FCBool Name="Maximized" Value="0"/>
+        </FCParamGroup>
+      </FCParamGroup>
+      <FCParamGroup Name="Macro">
+        <FCParamGroup Name="Macros"/>
+      </FCParamGroup>
+      <FCParamGroup Name="MainWindow">
+        <FCParamGroup Name="DockWindows">
+          <FCParamGroup Name="OverlayLeft">
+            <FCText Name="Widgets">Tree view,</FCText>
+            <FCText Name="Sizes">1066</FCText>
+            <FCBool Name="Transparent" Value="1"/>
+            <FCInt Name="Width" Value="380"/>
+            <FCInt Name="Height" Value="1089"/>
+          </FCParamGroup>
+          <FCParamGroup Name="OverlayRight">
+            <FCText Name="Widgets">Combo View,</FCText>
+            <FCText Name="Sizes">1068</FCText>
+            <FCBool Name="Transparent" Value="1"/>
+            <FCInt Name="Width" Value="380"/>
+            <FCInt Name="Height" Value="1089"/>
+          </FCParamGroup>
+          <FCParamGroup Name="OverlayTop">
+            <FCText Name="Widgets">Selection view,</FCText>
+            <FCText Name="Sizes">1604</FCText>
+            <FCBool Name="Transparent" Value="1"/>
+            <FCInt Name="Width" Value="1100"/>
+            <FCInt Name="Height" Value="128"/>
+          </FCParamGroup>
+          <FCParamGroup Name="OverlayBottom">
+            <FCText Name="Widgets">Python console,Report view,</FCText>
+            <FCText Name="Sizes">899,898</FCText>
+            <FCBool Name="AutoHide" Value="1"/>
+            <FCBool Name="EditShow" Value="0"/>
+            <FCBool Name="EditHide" Value="0"/>
+            <FCBool Name="TaskShow" Value="0"/>
+            <FCInt Name="Width" Value="1850"/>
+            <FCInt Name="Height" Value="147"/>
+          </FCParamGroup>
+          <FCBool Name="" Value="0"/>
+          <FCBool Name="Std_ReportView" Value="0"/>
+          <FCBool Name="Std_SelectionView" Value="1"/>
+          <FCBool Name="Std_ComboView" Value="1"/>
+          <FCBool Name="Std_PythonView" Value="0"/>
+          <FCBool Name="Std_TreeView" Value="1"/>
+          <FCBool Name="Std_PropertyView" Value="0"/>
+        </FCParamGroup>
+        <FCParamGroup Name="Toolbars">
+          <FCParamGroup Name="Movable"/>
+          <FCBool Name="File" Value="1"/>
+          <FCBool Name="Workbench" Value="1"/>
+          <FCBool Name="Macro" Value="0"/>
+          <FCBool Name="View" Value="1"/>
+          <FCBool Name="Structure" Value="1"/>
+          <FCBool Name="Navigation" Value="1"/>
+          <FCBool Name="Part Design Helper" Value="1"/>
+          <FCBool Name="Part Design Modeling" Value="1"/>
+          <FCBool Name="Part Design Extra" Value="1"/>
+          <FCBool Name="Measure" Value="1"/>
+          <FCBool Name="Solids" Value="1"/>
+          <FCBool Name="Part tools" Value="1"/>
+          <FCBool Name="Boolean" Value="1"/>
+          <FCBool Name="Spreadsheet" Value="1"/>
+          <FCBool Name="Sketcher" Value="1"/>
+          <FCBool Name="Sketcher geometries" Value="1"/>
+          <FCBool Name="Sketcher constraints" Value="1"/>
+          <FCBool Name="Sketcher tools" Value="1"/>
+          <FCBool Name="Sketcher B-spline tools" Value="1"/>
+          <FCBool Name="Sketcher virtual space" Value="1"/>
+          <FCBool Name="Assembly3 Constraints2" Value="0"/>
+          <FCBool Name="Assembly3 Sketch Constraints" Value="0"/>
+          <FCBool Name="Assembly3" Value="1"/>
+          <FCBool Name="Assembly3 Constraints" Value="1"/>
+          <FCBool Name="Assembly3 Measurements" Value="1"/>
+          <FCBool Name="Assembly3 Navigation" Value="1"/>
+          <FCBool Name="Arch tools 1" Value="1"/>
+          <FCBool Name="Arch tools 2" Value="1"/>
+          <FCBool Name="Draft creation tools" Value="1"/>
+          <FCBool Name="Draft annotation tools" Value="1"/>
+          <FCBool Name="Draft modification tools" Value="1"/>
+          <FCBool Name="Draft tray" Value="1"/>
+          <FCBool Name="Draft utility tools" Value="1"/>
+          <FCBool Name="Draft Snap" Value="1"/>
+          <FCBool Name="Model" Value="1"/>
+          <FCBool Name="Electrostatic Constraints" Value="1"/>
+          <FCBool Name="Fluid Constraints" Value="1"/>
+          <FCBool Name="Geometrical Constraints" Value="1"/>
+          <FCBool Name="Mechanical Constraints" Value="1"/>
+          <FCBool Name="Thermal Constraints" Value="1"/>
+          <FCBool Name="Mesh" Value="1"/>
+          <FCBool Name="Solve" Value="1"/>
+          <FCBool Name="Results" Value="1"/>
+          <FCBool Name="Utilities" Value="1"/>
+          <FCBool Name="Project Setup" Value="1"/>
+          <FCBool Name="Tool Commands" Value="1"/>
+          <FCBool Name="New Operations" Value="1"/>
+          <FCBool Name="Path Modification" Value="1"/>
+          <FCBool Name="Image" Value="1"/>
+          <FCBool Name="Surface" Value="1"/>
+          <FCBool Name="Mesh tools" Value="1"/>
+          <FCBool Name="Mesh modify" Value="1"/>
+          <FCBool Name="Mesh boolean" Value="1"/>
+          <FCBool Name="Mesh cutting" Value="1"/>
+          <FCBool Name="Mesh segmentation" Value="1"/>
+          <FCBool Name="Mesh analyze" Value="1"/>
+          <FCBool Name="TechDraw Pages" Value="1"/>
+          <FCBool Name="TechDraw Views" Value="1"/>
+          <FCBool Name="TechDraw Clips" Value="1"/>
+          <FCBool Name="TechDraw Dimensions" Value="1"/>
+          <FCBool Name="TechDraw File Access" Value="1"/>
+          <FCBool Name="TechDraw Decoration" Value="1"/>
+          <FCBool Name="TechDraw Annotation" Value="1"/>
+        </FCParamGroup>
+      </FCParamGroup>
+      <FCParamGroup Name="Workbench">
+        <FCParamGroup Name="Global">
+          <FCParamGroup Name="Toolbar"/>
+        </FCParamGroup>
+      </FCParamGroup>
+      <FCParamGroup Name="Workbenches">
+        <FCText Name="Enabled">PartDesignWorkbench,SketcherWorkbench,Assembly3Workbench,MeshWorkbench,SpreadsheetWorkbench,SurfaceWorkbench,ImageWorkbench,TechDrawWorkbench,PartWorkbench,DraftWorkbench,ArchWorkbench,PathWorkbench,FemWorkbench,</FCText>
+        <FCText Name="Disabled">NoneWorkbench,DrawingWorkbench,InspectionWorkbench,OpenSCADWorkbench,PointsWorkbench,RaytracingWorkbench,ReverseEngineeringWorkbench,RobotWorkbench,StartWorkbench,TestWorkbench,WebWorkbench,</FCText>
+        <FCBool Name="ShowTabBar" Value="1"/>
+        <FCBool Name="TabBarShowText" Value="0"/>
+      </FCParamGroup>
+      <FCParamGroup Name="WidgetEntries"/>
+    </FCParamGroup>
+    <FCParamGroup Name="Tux">
+      <FCParamGroup Name="NavigationIndicator">
+        <FCBool Name="Compact" Value="0"/>
+        <FCBool Name="Tooltip" Value="1"/>
+      </FCParamGroup>
+      <FCParamGroup Name="PersistentToolbars">
+        <FCInt Name="Deprecated" Value="2"/>
+      </FCParamGroup>
+    </FCParamGroup>
+  </FCParamGroup>
+
+</FCParameters>

@@ -1,0 +1,174 @@
+/* Ovelay Layout Styles */
+    /* FreeCAD */
+        /* Overlay */
+            /* Panels */
+                Gui--OverlayTabWidget,
+                Gui--OverlaySplitterHandle,
+                Gui--OverlayTitleBar,
+                _ {
+                    font-size: 13px; /* Title bar seize is set by font size */
+                }
+
+/* Overlay Color Styles */
+    /* Fill Color */
+        /* Control */
+            /* Default */
+                Gui--PythonConsole,
+                Gui--DockWnd--ReportOutput,
+                Gui--DockWnd--SelectionView > QLineEdit,
+                Gui--DockWnd--SelectionView > QToolButton,
+                QDialogButtonBox > QPushButton:!default:!checked,
+                _ {
+                    /* blend rgba(255, 255, 255, 0.5); */
+                    /* with rgba(255, 255, 255, 0.7); */
+                    background-color: rgba(255, 255, 255, 0.85);
+                }
+
+            /* Secondary */
+                Gui--PythonConsole[readOnly="false"]:hover,
+                Gui--DockWnd--ReportOutput[readOnly="false"]:hover,
+                Gui--DockWnd--SelectionView > QLineEdit[readOnly="false"]:hover,
+                Gui--DockWnd--SelectionView > QToolButton:hover,
+                QDialogButtonBox > QPushButton:!default:!checked:hover,
+                _ {
+                    /* blend rgba(255, 255, 255, 0.5); */
+                    /* with rgba(249, 249, 249, 0.5); */
+                    background-color: rgba(254, 254, 254, 0.75);
+                }
+
+            /* Tertiary */
+                Gui--PythonConsole[readOnly="false"]:pressed,
+                Gui--DockWnd--ReportOutput[readOnly="false"]:pressed,
+                Gui--DockWnd--SelectionView > QLineEdit[readOnly="false"]:pressed,
+                Gui--DockWnd--SelectionView > QToolButton:pressed,
+                QDialogButtonBox > QPushButton:!default:!checked:pressed,
+                _ {
+                    /* blend rgba(255, 255, 255, 0.5); */
+                    /* with rgba(249, 249, 249, 0.3); */
+                    background-color: rgba(254, 254, 254, 0.65);
+                }
+
+            /* Input Active */
+                Gui--PythonConsole[readOnly="false"]:focus,
+                Gui--DockWnd--ReportOutput[readOnly="false"]:focus,
+                Gui--DockWnd--SelectionView > QLineEdit[readOnly="false"]:focus,
+                _ {
+                    /* blend rgba(255, 255, 255, 0.5); */
+                    /* with rgba(249, 249, 249, 0.7); */
+                    background-color: rgba(253, 253, 253, 0.85);
+                }
+
+        /* Control Alt */
+            /* Transparent */
+                Gui--OverlayTabWidget#OverlayBottom > QFrame,
+                Gui--OverlaySplitterHandle,
+                Gui--OverlayTitleBar,
+                _ { 
+                    background-color: rgba(255, 255, 255, 0); 
+                }
+                Gui--OverlaySplitterHandle,
+                Gui--OverlayTitleBar,
+                _ {
+                    color: rgba(255, 255, 255, 0);
+                }
+
+                Gui--PropertyView QTreeView,
+                Gui--TreePanel QTreeView,
+                _ {
+                    selection-background-color: rgba(255, 255, 255, 0);
+                }
+        
+        /* Subtle */
+            /* Translucent Overlay */
+                Gui--TreePanel QTreeView::branch,
+                Gui--TreePanel QTreeView::item,
+                _ {
+                    background-color: rgba(246, 246, 246, 0.5);;
+                }
+                
+                Gui--PropertyEditor--PropertyEditor,
+                _ {
+                    qproperty-itemBackground: rgba(246, 246, 246, 0.5);;
+                }
+
+            /* Secondary Overlay*/
+                Gui--PropertyView QTreeView::branch:hover,
+                Gui--PropertyView QTreeView::branch:selected,
+                Gui--DockWnd--SelectionView QTreeView::item:hover,        
+                Gui--DockWnd--SelectionView QTreeView::item:selected,        
+                Gui--DockWnd--SelectionView QTreeView::branch:hover,        
+                Gui--DockWnd--SelectionView QTreeView::branch:selected,        
+                Gui--TreePanel QTreeView::item:hover,
+                Gui--TreePanel QTreeView::item:selected,
+                Gui--TreePanel QTreeView::branch:hover,
+                Gui--TreePanel QTreeView::branch:selected,
+                Gui--OverlayToolButton:hover,
+                QTabWidget#propertyTab > QTabBar::tab:hover,
+                _ {
+                    background-color: rgba(255, 255, 255, 0.7);
+                }
+
+            /* Tertiary */
+                Gui--OverlayToolButton:pressed,
+                QTabWidget#propertyTab > QTabBar::tab:pressed,
+                _ {
+                    /* blend rgba(255, 255, 255, 0.5); */
+                    /* with rgba(0, 0, 0, 0.0241); */
+                    background-color: rgba(249, 249, 249, 0.5121);
+                }
+
+    /* Background Fill Color */
+        /* Card Background */
+            /* Default */
+                QSint--TaskHeader,
+                _ {
+                    background-color: rgba(255, 255, 255, 0.7);
+                }
+
+                Gui--PropertyEditor--PropertyEditor,
+                _ {
+                    qproperty-groupBackground: rgba(255, 255, 255, 0.7);
+                }
+
+            /* Secondary */
+                Gui--Dialog--DlgExpressionInput QSplitter,
+                Gui--OverlayToolButton::checked,       
+                QTabWidget#propertyTab > QTabBar::tab:selected,
+                Gui--PropertyView QTreeView::branch,
+                QSint--ActionGroup QFrame[class="content"],
+                _ {
+                    background-color: rgba(246, 246, 246, 0.5);
+                }
+                
+                Gui--PropertyEditor--PropertyEditor,
+                _ {
+                    qproperty-itemBackground: rgba(246, 246, 246, 0.5);
+                }
+
+        /* Acrylic Background */
+            /* Default */
+                QScrollBar:hover,
+                _ {
+                    background-color: rgba(255, 255, 255, 0.7);
+                }
+
+                Gui--OverlayProxyWidget,
+                _ {
+                    qproperty-hintColor: rgba(255, 255, 255, 0.7);
+                }
+
+        /* Layer */
+            /* Default */
+                Gui--DockWnd--SelectionView QTreeView::branch,        
+                Gui--DockWnd--SelectionView QTreeView::item,
+                Gui--OverlayToolButton,
+                Gui--OverlayTabWidget#OverlayTop > QFrame,
+                Gui--OverlayTabWidget#OverlayLeft > QFrame,
+                Gui--OverlayTabWidget#OverlayRight > QFrame,
+                QTabWidget#propertyTab > QTabBar::tab,
+                QTabWidget#combiTab > QTabBar::tab,
+                _ {
+                    background-color: rgba(255, 255, 255, 0.5);
+                }
+
+/* END */

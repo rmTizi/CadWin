@@ -1,0 +1,646 @@
+/* Theme Color Styles */
+    /* Fill Color */
+        /* Text */
+            /* Primary */
+                * {
+                    color: #FFFFFF;
+                }
+
+                SpreadsheetGui--SheetTableView,
+                _ {
+                    qproperty-foregroundColor: #FFFFFF;
+                }
+
+                SpreadsheetGui--SheetTableView,
+                QComboBox QAbstractItemView,
+                QListView,
+                QTreeView,
+                _ { 
+                    selection-color : #FFFFFF;
+                }
+
+            /* Secondary */
+                QTableView::item:hover,
+                QStatusBar QLabel,
+                QStatusBar,
+                QSint--TaskHeader QSint--ActionLabel,
+                QTabBar::tab:!hover:!selected,
+                QMenuBar::item:pressed,
+                QComboBox:pressed,
+                QPushButton:pressed,
+                _ {
+                    color: rgba(255, 255, 255, 0.786);
+                }
+        
+                Gui--PropertyEditor--PropertyEditor, 
+                _ {
+                    qproperty-groupTextColor: rgba(255, 255, 255, 0.786);
+                }
+
+            /* Tertiary */
+                QTabBar::tab:pressed,
+                _ { 
+                    color : rgba(255, 255, 255, 0.5442);
+                }
+
+            /* Disabled */
+                QTableView::item:disabled,
+                QWidget:disabled,
+                _ {
+                    color: rgba(255, 255, 255, 0.3628);
+                }
+                
+        /* Control */
+            /* Transparent */
+                QTableCornerButton::section,
+                QHeaderView::section,
+                * {
+                    background-color: rgba(255, 255, 255, 0);
+                }
+
+            /* Default */
+                QLineEdit,
+                QPlainTextEdit,
+                QTextEdit,
+                QAbstractSpinBox,
+                QComboBox, 
+                QPushButton,
+                _ {
+                    background-color: rgba(255, 255, 255, 0.0605);
+                }
+
+            /* Secondary */
+                QLineEdit[readOnly="false"]:hover,
+                QPlainTextEdit[readOnly="false"]:hover,
+                QTextEdit[readOnly="false"]:hover,
+                QAbstractSpinBox[readOnly="false"]:hover,
+                QComboBox:hover, 
+                QPushButton:hover,
+                _ {
+                    background-color: rgba(255, 255, 255, 0.0837);
+                }
+
+            /* Tertiary */
+                QLineEdit[readOnly="false"]:pressed,
+                QPlainTextEdit[readOnly="false"]:pressed,
+                QTextEdit[readOnly="false"]:pressed,
+                QAbstractSpinBox[readOnly="false"]:pressed,
+                QComboBox:pressed, 
+                QPushButton:pressed,
+                _ {
+                    background-color: rgba(255, 255, 255, 0.0326);
+                }
+
+            /* Disabled */
+                QLineEdit:disabled,
+                QPlainTextEdit:disabled,
+                QTextEdit:disabled,
+                QAbstractSpinBox:disabled,
+                QComboBox:disabled, 
+                QPushButton:disabled,
+                _ {
+                    background-color: rgba(255, 255, 255, 0.0419);
+                }
+
+            /* Input Active */
+                QLineEdit[readOnly="false"]:focus,
+                QPlainTextEdit[readOnly="false"]:focus,
+                QTextEdit[readOnly="false"]:focus,
+                QAbstractSpinBox[readOnly="false"]:focus,
+                QComboBox:on, 
+                _ {
+                    background-color: rgba(30, 30, 30, 0.7);
+                }
+
+        /* Control Strong */
+            /* Default */
+                QProgressBar,
+                QWidget::handle,
+                QSlider::add-page,
+                _ {
+                    background-color: rgba(255, 255, 255, 0.5442);
+                }
+
+            /* Disabled */
+                /* _ {
+                    background-color: rgba(255, 255, 255, 0.2465);
+                } */
+
+        /* Control Alt */
+            /* Transparent */
+                *::pane,
+                *::tab,
+                * {
+                    border-color: rgba(255, 255, 255, 0);
+                    gridline-color: rgba(40, 40, 40, 0);
+                }
+
+                QScrollBar::add-page,
+                QScrollBar::sub-page,
+                QScrollBar::add-line,
+                QScrollBar::sub-line,
+                QScrollBar,
+                _ {
+                    background-color: rgba(255, 255, 255, 0);
+                }
+
+                Gui--ExpLineEdit[readOnly="true"],
+                Gui--PropertyEditor--PropertyEditor > QWidget > QWidget > QLabel:disabled,
+                Gui--PropertyEditor--PropertyEditor > QWidget > QWidget > QLabel,
+                QTabWidget#propertyTab QTabBar::tab,
+                QToolBar > QToolButton:disabled,
+                QToolBar > QToolButton,
+                _ {
+                    color: rgba(255, 255, 255, 0);
+                }
+
+            /* Secondary */
+                QWidget::indicator,
+                _ {
+                    background-color: rgba(0, 0, 0, 0.1);
+                }
+
+            /* Tertiary */
+                QWidget::indicator:hover,
+                _ {
+                    background-color: rgba(255, 255, 255, 0.0419);
+                }
+
+            /* Quaternary */
+                QWidget::indicator:pressed, 
+                _ {
+                    background-color: rgba(255, 255, 255, 0.0698);
+                }
+
+            /* Disabled */
+                QWidget::indicator:disabled, 
+                _ {
+                    background-color: rgba(255, 255, 255, 0);
+                }
+
+        /* Subtle */
+            /* Transparent */
+                QListView#listWidgetConstraints::indicator:checked,
+                QListView#listWidgetConstraints::indicator:pressed,
+                QListView#listWidgetConstraints::indicator:hover,
+                QListView#listWidgetConstraints::indicator,
+                QMenu::indicator:indeterminate,
+                QMenu::indicator:checked,
+                QMenu::indicator:pressed,
+                QMenu::indicator:hover,
+                QMenu::indicator,
+                QTreeView::branch,
+                QTreeView::item,
+                QListView::item,
+                QComboBox::drop-down,
+                _ {
+                    background-color: rgba(255, 255, 255, 0);
+                }
+
+                Gui--ExpLineEdit[readOnly="true"],
+                QListView,
+                QTreeView,
+                _ { 
+                    selection-background-color : rgba(255, 255, 255, 0);
+                }
+
+            /* Secondary */
+                Gui--OverlayToolButton:hover,
+                QTabWidget#propertyTab QTabBar::tab:hover,
+                QTabWidget#propertyTab QTabBar::tab:selected,
+                QToolBar#Workbench QTabBar::tab:!selected:hover,
+                QToolBar > QToolButton:hover,
+                QTreeView::branch:hover,
+                QTreeView::branch:selected,
+                QTreeView::item:hover,
+                QTreeView::item:selected,
+                QListView::item:hover,
+                QListView::item:selected,
+                QMenuBar::item:selected,
+                QMenu::item:selected,
+                QAbstractSpinBox::down-button:hover,
+                QAbstractSpinBox::up-button:hover,
+                QComboBox::drop-down:hover,
+                _ {
+                    background-color: rgba(255, 255, 255, 0.0605);
+                }
+
+                SpreadsheetGui--SheetTableView,
+                QComboBox QAbstractItemView,
+                _ { 
+                    selection-background-color : rgba(255, 255, 255, 0.0605);
+                }
+
+            /* Tertiary */
+                Gui--OverlayToolButton:pressed,
+                QTabWidget#propertyTab QTabBar::tab:pressed,
+                QAbstractSpinBox::up-button:pressed,
+                QAbstractSpinBox::down-button:pressed,
+                QToolBar > QToolButton:pressed,
+                QMenuBar::item:pressed,
+                QMenu::item:pressed,
+                QComboBox::drop-down:pressed,
+                _ {
+                    background-color: rgba(255, 255, 255, 0.0419);
+                }
+
+            /* Disabled */
+                QMenuBar::item:disabled,
+                QMenu::item:disabled,
+                _ {
+                    background-color: rgba(255, 255, 255, 0);
+                }
+
+        /* Control Solid */
+            /* Default */
+                QSlider::handle,
+                _ {
+                    border-color: #454545;
+                }
+
+                SpreadsheetGui--SheetTableView > QWidget > QComboBox:focus,
+                Gui--PropertyEditor--PropertyEditor > QWidget > QWidget > QPushButton,
+                _ {
+                    background-color: #454545;
+                }
+            
+            /* Secondary */
+                SpreadsheetGui--SheetTableView > QWidget > QComboBox:hover,
+                Gui--PropertyEditor--PropertyEditor > QWidget > QWidget > QPushButton:hover,
+                _ {
+                    background-color: #4A4A4A;
+                }
+
+            /* Tertiary */
+                Gui--PropertyEditor--PropertyEditor > QWidget > QWidget > QPushButton:pressed,
+                _ {
+                    background-color: #3F3F3F;
+                }
+
+            /* Disabled */
+                Gui--PropertyEditor--PropertyEditor > QWidget > QWidget > QPushButton:disabled,
+                QSlider::handle:disabled,
+                _ {
+                    background-color: #626262;
+                }
+            
+            /* Input Active */
+                SpreadsheetGui--SheetTableView > QWidget > QAbstractSpinBox[readOnly="false"]:focus,
+                SpreadsheetGui--SheetTableView > QWidget > QComboBox:on,
+                SpreadsheetGui--SheetTableView > QWidget > QLineEdit[readOnly="false"]:focus,
+                SpreadsheetGui--SheetTableView > QWidget > QPlainTextEdit[readOnly="false"]:focus,
+                _{
+                    background-color: #262626;
+                }
+
+        /* System */
+            /* Critical */
+                /* _ {
+                    background-color: #FF99A4;
+                } */
+
+            /* Success */
+                /* _ {
+                    background-color: #6CCB5F;
+                } */
+
+            /* Attention */
+                /* _ {
+                    background-color: #60CDFF;
+                } */
+
+            /* Caution */
+                /* _ {
+                    background-color: #FCE100;
+                } */
+
+            /* Attention Background */
+                /* _ {
+                    background-color: rgba(255, 255, 255, 0.0326);
+                } */
+
+            /* Success Background */
+                /* _ {
+                    background-color: #393D1B;
+                } */
+
+            /* Caution Background */
+                /* _ {
+                    background-color: #433519;
+                } */
+
+            /* Critical Background */
+                /* _ {
+                    background-color: #442726;
+                } */
+
+            /* System/Neutral */
+                /* _ {
+                    background-color: rgba(255, 255, 255, 0.5442);
+                } */
+
+            /* Neutral Background */
+                /* _ {
+                    background-color: rgba(255, 255, 255, 0.0326);
+                } */
+
+            /* Solid Attention Background */
+                /* _ {
+                    background-color: #2E2E2E;
+                } */
+
+            /* Solid Neutral */
+                /* _ {
+                    background-color: #9D9D9D;
+                } */
+
+            /* Solid Neutral Background */
+                /* _ {
+                    background-color: #2E2E2E;
+                } */
+
+        /* Control On Image */
+            /* Default */
+                /* _ {
+                    background-color: rgba(28, 28, 28, 0.7);
+                } */
+            
+            /* Secondary */
+                /* _ {
+                    background-color: #1A1A1A;
+                } */
+            
+            /* Tertiary */
+                /* _ {
+                    background-color: #131313;
+                } */
+
+            /* Disabled */
+                /* _ {
+                    background-color: rgba(30, 30, 30, 0);
+                } */
+
+        /* Caption Control Close Fill */
+            /* Primary */
+                Gui--OverlayToolButton[objectName="OBTN Close"]:hover,
+                _ {
+                    background-color: #C42B1C;
+                }
+
+            /* Secondary */
+                Gui--OverlayToolButton[objectName="OBTN Close"]:pressed,
+                _ {
+                    background-color: rgba(196, 43, 28, 0.9);
+                }
+
+    /* Elevation */
+        /* Control */
+            /* Border */
+                QLineEdit,
+                QPlainTextEdit,
+                QTextEdit,
+                QAbstractSpinBox,
+                QComboBox,
+                QPushButton,
+                _ { 
+                    border-color: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                        stop: 0 rgba(255, 255, 255, 0.093),
+                        stop: 0.0957 rgba(255, 255, 255, 0.0698),
+                        stop: 0.0958 rgba(255, 255, 255, 0.0698)
+                    );                    
+                    border-top-color: rgba(255, 255, 255, 0.093);
+                    border-bottom-color: rgba(255, 255, 255, 0.0698);
+                }
+
+        /* Circle */
+            /* Border */
+                /* _ {
+                    border-color: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                        stop: 0 rgba(255, 255, 255, 0.093),
+                        stop: 0.5 rgba(255, 255, 255, 0.0698)
+                    ); 
+                } */
+
+        /* Text Control */
+            /* Border */
+                QLineEdit[readOnly="false"],
+                QPlainTextEdit[readOnly="false"],
+                QTextEdit[readOnly="false"],
+                _ {
+                    border-color: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                        stop: 0.9998 rgba(255, 255, 255, 0.08),
+                        stop: 1 rgba(255, 255, 255, 0.5442),
+                        stop: 1 rgba(255, 255, 255, 0.5442)
+                    );
+                    border-top-color: rgba(255, 255, 255, 0.08);
+                    border-bottom-color: rgba(255, 255, 255, 0.5442);
+                }
+
+    /* Stroke Color */
+        /* Control Stroke */
+            /* Default */
+                QLineEdit[readOnly="false"]:pressed,
+                QLineEdit:disabled,
+                QPlainTextEdit[readOnly="false"]:pressed,
+                QPlainTextEdit:disabled,
+                QTextEdit[readOnly="false"]:pressed,
+                QTextEdit:disabled,
+                QAbstractSpinBox[readOnly="false"]:pressed,
+                QAbstractSpinBox:disabled,
+                QComboBox:pressed,
+                QComboBox:disabled,
+                QPushButton:pressed,
+                QPushButton:disabled,
+                _ {
+                    border-color: rgba(255, 255, 255, 0.0698);
+                }
+
+            /* Secondary */
+                /* _ {
+                    border-color: rgba(255, 255, 255, 0.093);
+                } */
+
+            /* For Strong Fill When On Image */
+                SpreadsheetGui--SheetTableView,
+                _ { 
+                    gridline-color: rgba(0, 0, 0, 0.42);
+                }
+
+        /* Control Strong Stroke */
+            /* Default */
+                QWidget::indicator,
+                _ {
+                    border-color: rgba(255, 255, 255, 0.5442);
+                }
+
+            /* Disabled */
+                QWidget::indicator:pressed,
+                QWidget::indicator:disabled,
+                _ {
+                    border-color: rgba(255, 255, 255, 0.1581);
+                }
+
+        /* Divider Stroke */
+            /* Default */
+                QToolBar::handle,
+                QWidget::separator,
+                _ {
+                    background-color: rgba(255, 255, 255, 0.0837);
+                }
+
+        /* Surface Stroke */
+            /* Default */
+                /* _ {
+                    border-color: rgba(117, 117, 117, 0.4);
+                } */
+
+            /* Flyout */
+                QStatusBar,
+                QToolTip,
+                QMenu,
+                QMenuBar,
+                QToolBar,
+                QComboBox QAbstractItemView,
+                _ {
+                    border-color: rgba(0, 0, 0, 0.2);
+                }
+                
+                QMainWindow:separator,
+                _ {
+                    background-color: rgba(0, 0, 0, 0.2);
+                }
+
+        /* Card Stroke */
+            /* Default */
+                Gui--Dialog--DlgPreferencesImp > QWidget#tabWidgetStack,
+                QGroupBox::title,
+                QGroupBox, 
+                _ {
+                    border-color: rgba(0, 0, 0, 0.1);
+                }
+
+            /* Default Solid */
+                /* _ {
+                    border-color: #1C1C1C;
+                } */
+
+        /* Focus Stroke */
+            /* Outer */
+                QRadioButton:focus,
+                QCheckBox:focus,
+                QComboBox:focus,
+                QPushButton:default:focus,
+                QPushButton:checked:focus,
+                QPushButton:focus,
+                _ { 
+                    border-color: rgba(255, 255, 255, 0.7);
+                }
+
+            /* Inner */
+                /* _ {
+                    border-color: rgba(0, 0, 0, 0.7);
+                } */
+
+    /* Background Fill Color */
+        /* Card Background */
+            /* Default */
+                QSint--TaskHeader,
+                _ {
+                    background-color: rgba(255, 255, 255, 0.0512);
+                }
+
+                Gui--PropertyEditor--PropertyEditor {
+                    qproperty-groupBackground: rgba(255, 255, 255, 0.0512);
+                }
+
+            /* Secondary */
+                Gui--Dialog--DlgExpressionInput QSplitter,
+                Gui--Dialog--DlgPreferencesImp > QWidget#tabWidgetStack,
+                Gui--PropertyView QTreeView::branch,
+                QSint--ActionGroup QFrame[class="content"],
+                _ {
+                    background-color: rgba(255, 255, 255, 0.0326);
+                }
+
+                Gui--PropertyEditor--PropertyEditor {
+                    qproperty-itemBackground: rgba(255, 255, 255, 0.0326);
+                }
+
+        /* Smoke */
+            /* Default */
+                /* _ {
+                    background-color: rgba(0, 0, 0, 0.3);
+                } */
+
+        /* Solid Background */
+            /* Base */
+                Gui--Dialog--DlgParameterImp,
+                QDialog, 
+                _ { 
+                    background-color: #202020;
+                }
+
+            /* Secondary */
+                QMdiArea,
+                QStatusBar,
+                _ {
+                    background-color: #1C1C1C;
+                }
+
+            /* Tertiary */
+                QDockWidget,
+                QMainWindow,
+                QToolBar,
+                _ {
+                    background-color: #282828;
+                }
+
+            /* Quarternary */
+                SpreadsheetGui--SheetTableView,
+                QMdiSubWindow,
+                _ {
+                    background-color: #2C2C2C;
+                }  
+
+        /* Mica Background */
+            /* Base */
+                QToolBar:top,
+                QToolBar:left,
+                QMenuBar, 
+                _ {
+                    background-color: rgba(32, 32, 32, 1);
+                }
+
+        /* Acrylic Background */
+            /* Default */
+                QToolTip,
+                QScrollBar:hover,
+                QMenu,
+                QComboBox QAbstractItemView,
+                _ {
+                    background-color: rgba(44, 44, 44, 0.96);
+                }
+
+            /* Base */
+                /* _ {
+                    background-color: rgba(32, 32, 32, 0.96);
+                } */
+
+        /* Layer */
+            /* Default */
+                QGroupBox,
+                _ {
+                    background-color: rgba(58, 58, 58, 0.3);
+                }
+
+            /* Alt */
+                /* _ {
+                    background-color: rgba(255, 255, 255, 0.0538);
+                } */
+
+        /* Layer On Acrylic */
+            /* Default */
+                /* _ {
+                    background-color: rgba(255, 255, 255, 0.0359);
+                } */
+

@@ -1,0 +1,1145 @@
+/* Layout Styles */
+    /* Controls */
+        /* Basic Input */
+            /* Reset */
+                * {
+                    spacing: 0px;
+                    outline: 0px solid transparent;
+                    margin: 0px;
+                    border: 0px solid transparent;
+                    border-radius: 0px;
+                    padding: 0px;
+                }
+
+            /* Button */
+                QPushButton,
+                _ {
+                    min-width: 96px;
+                    min-height: 20px;
+                    margin: 3px;
+                    border-width: 1px;
+                    border-radius: 4px;
+                    padding: 4px 11px 6px;
+                }
+
+                QPushButton:focus,
+                _ {
+                    margin: 0px;
+                    border-width: 2px;
+                    border-radius: 7px;
+                    background-clip: padding;
+                    padding: 7px 13px 8px;
+                }
+
+            /* Combo Box */
+                QComboBox,
+                _ {
+                    min-width: 96px;
+                    min-height: 20px;
+                    margin: 3px;
+                    border-width: 1px;
+                    border-radius: 4px;
+                    padding: 4px 35px 6px 11px;
+                }
+
+                QComboBox:focus,
+                _ {
+                    margin: 0px;
+                    border-width: 2px;
+                    border-radius: 7px;
+                    background-clip: padding;
+                    padding: 7px 37px 8px 13px;
+                }
+
+                QComboBox:on,
+                _ {
+                    padding-bottom: 4px;
+                    border-bottom-width: 2px;
+                    border-bottom-left-radius: 0px;
+                    border-bottom-right-radius: 0px;
+                }
+
+                QComboBox::drop-down,
+                _ {
+                    width: 16px;
+                    height: 16px;
+                    padding: 3px 5px;
+                    subcontrol-origin: margin;
+                    subcontrol-position: top right;
+                    top: 7px;
+                    right: 7px;
+                    border-radius: 3px;
+                }
+
+                QComboBox QAbstractItemView,
+                _ {
+                    padding: 9px 11px 11px;
+                    border-width: 1px;
+                }
+
+            /* Checkbox */
+                QWidget::indicator,
+                _ {
+                    width: 12px;
+                    height: 12px;
+                    padding: 3px;
+                    border-style: solid;
+                    border-width: 1px;
+                    border-radius: 4px;
+                }
+
+                QWidget::indicator:indeterminate,
+                QWidget::indicator:checked,
+                _ {
+                    border-width: 0px;
+                    padding: 4px;
+                }
+
+                QCheckBox,
+                _ {
+                    margin: 3px;
+                    border-width: 1px;
+                    border-radius: 4px;
+                    padding: 5px 8px 5px 3px;
+                    spacing: 8px;
+                }
+                    
+                QCheckBox:focus,
+                _ {
+                    margin: 0px;
+                    border-width: 2px;
+                    border-radius: 7px;
+                    padding: 7px 10px 7px 5px;
+                }
+
+            /* Radio Button */
+                QRadioButton::indicator,
+                _ {
+                    top: 1px;
+                    border-width: 1px;
+                    border-radius: 10px;
+                }
+
+                QRadioButton::indicator:checked:disabled,
+                QRadioButton::indicator:checked,
+                _ {
+                    padding: 4px;
+                    border-width: 0px;
+                }
+
+                QRadioButton::indicator:checked:hover,
+                _ {
+                    width: 14px;
+                    height: 14px;
+                    padding: 3px;
+                }
+
+                QRadioButton::indicator:checked:pressed,
+                _ {
+                    width: 10px;
+                    height: 10px;
+                    padding: 5px;
+                }
+
+                QRadioButton::indicator:pressed,
+                _ {
+                    width: 10px;
+                    height: 10px;
+                    padding: 4px;
+                }
+            
+                QRadioButton,
+                _ {
+                    margin: 3px;
+                    border-width: 1px;
+                    border-radius: 4px;
+                    padding: 4px 9px 6px 4px;
+                    spacing: 8px;
+                }
+
+                QRadioButton:focus,
+                _ {
+                    margin: 0px;
+                    border-width: 2px;
+                    border-radius: 7px;
+                    padding: 6px 11px 8px 6px;
+                }
+        
+            /* Slider */
+                QSlider:horizontal,
+                _ {
+                    min-height: 32px;
+                    max-height: 32px;
+                }
+
+                QSlider:vertical,
+                _ {
+                    min-width: 32px;
+                    max-width: 32px;
+                }
+
+                QSlider::groove:horizontal,
+                _ {
+                    height: 4px;
+                    margin: 0 12px;
+                }
+
+                QSlider::groove:vertical,
+                _ {
+                    width: 4px;
+                    margin: 12 0px;
+                }
+
+                QSlider::sub-page:horizontal,
+                _ {
+                    margin: 0 0 0 12px;
+                }
+                
+                QSlider::sub-page:vertical,
+                _ {
+                    margin: 0 0 12px 0;
+                }
+
+                QSlider::add-page:horizontal,
+                _ {
+                    margin: 0 12px 0 0;
+                }
+
+                QSlider::add-page:vertical,
+                _ {
+                    margin: 12px 0 0 0;
+                }
+                
+                QSlider::handle:horizontal,
+                _ {
+                    margin: -8px -11px -8px -10px;
+                }
+
+                QSlider::handle:vertical,
+                _ {
+                    margin: -11px -8px -10px -8px;
+                }
+                
+                QSlider::handle,
+                _ {
+                    border-style: solid;
+                    border-width: 4px;
+                    border-radius: 10px;
+                }
+
+                QSlider::handle:hover,
+                _ {
+                    border-width: 3px;
+                }
+
+                QSlider::handle:pressed,
+                QSlider::handle:disabled,
+                _ {
+                    border-width: 5px;
+                }
+
+                QSlider::add-page,
+                QSlider::sub-page,
+                QSlider::groove,
+                _ {
+                    border-radius: 2px;
+                }
+
+        /* Lists & Collectins */
+            /* Tree View  */
+                QTreeView,
+                _ {
+                    show-decoration-selected: 1;
+                    qproperty-alternatingRowColors: false;
+                }
+
+                QTreeView::item,
+                _ {
+                    margin: 0px;
+                    padding: 2px 0px 1px;
+                }
+
+                QTreeView::branch,
+                _ {
+                    padding: 4px;
+                }
+
+            /* List View */
+                QListView::item,
+                _ {
+                    margin: 0px;
+                    padding: 2px 0px 1px;
+                }
+
+        /* Menus & Toolbars */ 
+            /* Command Bar */
+                QToolBar,
+                _ {
+                    padding: 3px;
+                }
+
+                QToolBar:open,
+                _ {
+                    border-width: 1px;
+                }
+
+                QToolBar:top,
+                _ {
+                    border-bottom-width: 1px;
+                }
+
+                QToolBar:bottom,
+                _ {
+                    border-top-width: 1px;
+                }
+
+                QToolBar:right,
+                _ {
+                    border-left-width: 1px;
+                }
+
+                QToolBar:left,
+                _ {
+                    border-right-width: 1px;
+                }
+
+                QToolBar > QToolButton,
+                _ {
+                    max-width: 40px;
+                    max-height: 40px;
+                    width: 24px;
+                    height: 24px;
+                    padding : 6px;
+                    margin: 2px;
+                    border-radius: 4px;
+                    qproperty-popupMode: InstantPopup;
+                }
+
+                QToolBar::handle:vertical,
+                QToolBar::separator:vertical,
+                _ {
+                    height: 1px;
+                    padding: 1px 7px 2px;
+                    background-clip: content;
+                }
+
+                QToolBar::handle:horizontal,
+                QToolBar::separator:horizontal,
+                _ {
+                    width: 1px;
+                    padding: 7px 2px 7px 1px;
+                    background-clip: content;
+                }
+
+                QToolBarExtension,
+                _ {
+                    background-position: center center;
+                    background-repeat: no-repeat;
+                    background-clip: margin;
+                    qproperty-icon: url("");
+                }
+                
+            /* Context Menu */
+                QMenu,
+                _ {
+                    border-style: solid;
+                    border-width: 1px;
+                }
+
+                QMenu::item,
+                _ {
+                    margin: 3px 4px;
+                    padding: 3px 11px 4px 19px;
+                    border-radius: 4px;
+                }
+
+                QMenu::right-arrow,
+                _ {
+                    subcontrol-origin: content;
+                    subcontrol-position: right center;
+                    top: 1px;
+                    left: -1px;
+                    width: 10px;
+                    height: 10px;
+                }
+
+                QMenu::indicator:checked,
+                QMenu::indicator,
+                QMenu::icon,
+                _ {
+                    margin: 0px;
+                    border: 0px;
+                    padding: 0px;
+                    subcontrol-origin: content;
+                    subcontrol-position: left center;
+                    top: 1px; 
+                    left: -8px;
+                    width: 16px;  
+                    height: 16px;
+                }
+
+                QMenu::indicator:non-exclusive,
+                _ {
+                    top: 2px;
+                    left: -5px;
+                    width: 11px;  
+                    height: 12px;
+                }
+
+                QMenu::separator,
+                _ {
+                    height: 1px;
+                    margin: 1px 0px 2px;
+                }
+
+            /* File Menu */
+                QMenuBar,
+                _ {
+                    border-bottom-width: 1px;
+                }
+
+                QMenuBar::item,
+                _ {
+                    margin: 5px;
+                    padding: 4px 11px 6px;
+                    border-radius: 4px;
+                }
+
+        /* Navigation */
+            /* Top Nav */
+                QTabWidget::tab-bar,
+                _ {
+                    alignment: center;
+                }
+
+                QTabBar,
+                _ {
+                    qproperty-drawBase: 0;
+                }
+
+                QTabBar::tab,
+                _ {
+                    margin: 4px 12px;
+                    padding: 5px 0px 6px;
+                    border-style: solid;
+                    border-width: 0px;
+                    border-bottom-width: 3px;
+                    background-clip: margin;
+                }
+            
+            /* Side Nav */
+                QToolBar#Workbench > QTabWidget[tabPosition="West"],
+                QToolBar#Workbench > QTabWidget[tabPosition="East"],
+                _ {
+                    max-width: 40px;
+                }
+
+                QToolBar#Workbench > QTabWidget[tabPosition="North"],
+                QToolBar#Workbench > QTabWidget[tabPosition="South"],
+                _ {
+                    max-height: 40px;
+                }
+
+                QToolBar#Workbench > QTabWidget > QTabBar::tab,
+                _ {
+                    height: 24px;
+                    width: 33px;
+                    margin: 2px;
+                    padding: 6px 0px;
+                    border-width: 0px;
+                    border-radius: 4px;
+                    border-left-width: 3px;
+                    background-clip: border;
+                }
+
+                QToolBar#Workbench QTabBar::scroller,
+                _ {
+                    width: 0px;
+                }
+
+                QToolBar#Workbench QTabBar::tear,
+                _ {
+                    width: 0px;
+                }
+
+        /* Scrolling */
+            /* Scroll Bar */
+                QScrollBar,
+                _ {
+                    border-radius: 6px;
+                    padding: 3px;
+                }
+
+                QScrollBar:vertical,
+                _ {
+                    width: 14px;
+                    margin: 1px 3px;
+                    padding: 16px 3px;
+                }
+
+                QScrollBar:vertical:hover,
+                _ {
+                    width: 14px;
+                    margin: 1px;
+                }
+
+                QScrollBar:horizontal,
+                _ {
+                    height: 14px;
+                    margin: 3px 1px;
+                    padding: 3px 16px;
+                }
+
+                QScrollBar:horizontal:hover,
+                _ {
+                    height: 14px;
+                    margin: 1px;
+                }
+
+                QScrollBar::handle,
+                _ {
+                    border-radius: 3px;
+                    min-height: 6px;
+                    min-width: 6px;
+                }
+
+                QScrollBar::handle:vertical,
+                _ {
+                    margin: 2px 0px;
+                }
+
+                QScrollBar::handle:horizontal,
+                _ {
+                    margin: 0px 2px;
+                }
+
+                QScrollBar::sub-line:vertical, 
+                QScrollBar::add-line:vertical,
+                _ {
+                    height: 18px;
+                    width: 14px;
+                    subcontrol-origin: margin;            
+                }
+
+                QScrollBar::sub-line:horizontal, 
+                QScrollBar::add-line:horizontal,
+                _ {
+                    height: 14px;
+                    width: 18px;
+                    subcontrol-origin: margin;     
+                }
+
+                QScrollBar::sub-line:horizontal,
+                _ {
+                    subcontrol-position:left;
+                }
+
+        /* Status & Info */
+            /* Info Card */
+                QGroupBox,
+                _ {
+                    padding: 36px 1px 1px;
+                    border-width: 1px;
+                    border-radius: 7px;
+                }
+
+                QGroupBox::title,
+                _ {
+                    border-style: solid;
+                    border-top-width: 1px;
+                    border-left-width: 1px;
+                    border-top-left-radius: 7px;
+                    padding-top: 10px;
+                    padding-left: 10px;
+                }
+
+            /* Progress */
+                QProgressBar,
+                _ {
+                    margin: 15px 2px 13px;
+                    padding: 4px;
+                    height: 3px;
+                    background-clip: content;
+                }
+
+            /* Tooltip */
+                QToolTip,
+                _ {
+                    padding: 5px 8px 7px;
+                    border-width: 1px;
+                }
+
+        /* Text Fields */
+            /* Number Box */
+                QAbstractSpinBox,
+                _ {
+                    min-width: 39px;
+                    min-height: 20px;
+                    margin: 3px;
+                    border-width: 1px;
+                    border-radius: 4px;
+                    padding: 4px 46px 6px 11px;
+                }
+
+                QAbstractSpinBox:focus,
+                _ {
+                    padding-bottom: 4px;
+                    border-bottom-width: 2px;
+                }
+
+                QAbstractSpinBox::up-button,
+                _ {
+                    width: 16px;
+                    height: 16px;
+                    padding: 3px 5px;
+                    subcontrol-origin: padding;
+                    subcontrol-position: top right;
+                    top: 4px;
+                    right: 36px;
+                    border-radius: 3px;
+                }
+
+                QAbstractSpinBox::down-button,
+                _ {
+                    width: 16px;
+                    height: 16px;
+                    padding: 3px 5px;
+                    subcontrol-origin: padding;
+                    subcontrol-position: top right;
+                    top: 4px;
+                    right: 4px;
+                    border-radius: 3px;
+                }
+
+            /* Rich Edit Box */
+                QPlainTextEdit,
+                QTextEdit,
+                _ {
+                    min-width: 136px;
+                    min-height: 20px;
+                    margin: 3px;
+                    border-width: 1px;
+                    border-radius: 4px;
+                    padding: 5px 11px;
+                }
+
+                QPlainTextEdit:focus,
+                QTextEdit:focus,
+                _ {
+                    padding-bottom: 4px;
+                    border-bottom-width: 2px;
+                }
+
+            /* Text Box */
+                QLineEdit,
+                _ {
+                    min-width: 112px;
+                    min-height: 20px;
+                    margin: 3px;
+                    border-width: 1px;
+                    border-radius: 4px;
+                    padding: 4px 11px 6px;
+                }
+
+                QLineEdit:focus,
+                _ {
+                    padding-bottom: 4px;
+                    border-bottom-width: 2px;
+                }
+
+    /* FreeCAD */
+        /* Main Window */
+            /* Dock Area */
+                QDockWidget,
+                _ {
+                    min-width: 380px;
+                    min-height: 140px;
+                }
+
+                QSplitter::handle:horizontal,
+                QMainWindow::separator:horizontal,
+                _ {
+                    height: 1px;
+                }
+
+                QSplitter::handle:vertical,
+                QMainWindow::separator:vertical,
+                _ {
+                    width: 1px;
+                }
+
+            /* Status Bar */
+                QStatusBar,
+                _ {
+                    border-top-width: 1px;
+                    max-height: 24px;
+                }
+
+                QStatusBar::item,
+                _ {
+                    border-width: 0px;
+                }
+
+                QStatusBar QLabel,
+                _ {
+                    margin: 0px 6px;
+                }
+
+                QPushButton#NavigationIndicator,
+                _ {
+                    min-width: 0px;
+                    max-width: 0px;
+                    border-width: 0px;
+                    padding: 0px;
+                    margin: 0px;
+                }
+            
+            /* Document Tab */
+                QMdiArea > QTabBar::tab,
+                _ {
+                    height: 0px;
+                    margin: 0px;
+                    border: 0px;
+                    padding: 0px;
+                }
+
+        /* Dialogs */
+            /* Expression Input*/
+                Gui--Dialog--DlgExpressionInput,
+                _ {
+                    qproperty-ignoreOutputWindowColors: true;
+                }
+
+            /* Preferences */
+                Gui--Dialog--DlgPreferencesImp,
+                _ {
+                    min-height: 768px;
+                    min-width: 1024;
+                }
+
+                Gui--Dialog--DlgPreferencesImp > QWidget#tabWidgetStack,
+                _ {
+                    margin: 12px 12px 12px 0;
+                    border-width: 1px;
+                    border-radius: 7px;
+                }
+
+                Gui--Dialog--DlgPreferencesImp > QListView#listBox,
+                _ {
+                    qproperty-iconSize: 32px;
+                    qproperty-uniformItemSizes: true; 
+                    margin: 12px 0px;
+                }
+
+                Gui--Dialog--DlgPreferencesImp > QListView#listBox::item,
+                _ {
+                    width: 101px;
+                    padding: 12px 0px;
+                    margin-bottom: 6px;
+                    border-radius: 7px;
+                } 
+
+            /* Customize */
+                Gui--Dialog--DlgCustomizeImp,
+                _ {
+                    min-height: 768px;
+                    min-width: 1024;
+                }
+
+            /* Parameters */
+                Gui--Dialog--DlgParameterImp,
+                _ {
+                    min-height: 768px;
+                    min-width: 1024;
+                }
+
+            /* Addon Manager */
+                QDialog[windowTitle="Addon Manager"],
+                _ {
+                    min-height: 768px;
+                    min-width: 1024;
+                }
+
+        /* Dock Panels */
+            /* Tree View */
+                Gui--TreePanel > QTreeView,
+                _ {
+                    margin: 0px 17px 17px;
+                    qproperty-headerHidden : true;
+                    qproperty-textElideMode : ElideNone;
+                }
+
+                Gui--TreePanel > QTreeView::item,
+                _ {
+                    margin: 0px;
+                    padding: 2px 0px 1px;
+                }
+
+                Gui--TreePanel > QTreeView::indicator,
+                _ {
+                    padding: 0px;
+                }
+
+                Gui--TreePanel > QTreeView::indicator:checked,
+                _ {
+                    padding: 1px;
+                }
+
+            /* Selection View */
+                Gui--DockWnd--SelectionView > QLabel,
+                Gui--DockWnd--SelectionView > QCheckBox::indicator,
+                Gui--DockWnd--SelectionView > QCheckBox,
+                _ {
+                    max-width: 0px;
+                    max-height: 0px;
+                    padding: 0px;
+                    margin: 0px;
+                    border: none;
+                }
+
+                Gui--DockWnd--SelectionView > QLineEdit,
+                _ {
+                    margin-left: 38px;
+                }
+
+                Gui--DockWnd--SelectionView > QToolButton,
+                _ {
+                    qproperty-icon: url("");
+                    max-height: 22px;
+                    max-width: 30px;
+                    width: 16px;
+                    height: 16px;
+                    padding: 3px 7px;
+                    margin: 1px;
+                    border-radius: 3px;
+                    background-clip: margin;
+                }
+
+                Gui--DockWnd--SelectionView > QTreeView,
+                _ {
+                    qproperty-headerHidden : true;
+                    min-height: 64px;
+                    margin: 0px 42px;
+                }
+                
+            /* Combo View */
+                QTabWidget#combiTab::pane,
+                _ {
+                    position: absolute;
+                    top: -17px;
+                }
+
+                QTabWidget#combiTab QSplitter::handle,
+                _ {
+                    height: 0px;
+                    width: 0px;
+                }
+
+            /* Property View */
+                QTabWidget#propertyTab,
+                _ {
+                    qproperty-tabPosition: North;
+                }
+
+                QTabWidget#propertyTab::tab-bar,
+                _ {
+                    alignment: left;
+                }
+
+                QTabWidget#propertyTab > QTabBar::tab,
+                _ {
+                    margin: 1px;
+                    border: 0px;
+                    padding: 0px;
+                    min-height: 16px;
+                    min-width: 38px;
+                    max-height: 16px;
+                    max-width: 38px;
+                    border-radius: 3px;
+                    background-clip: content;
+                    qproperty-iconSize: 16px;
+                }
+
+                QTabWidget#propertyTab > QTabBar::tab:first,
+                _ {
+                    margin-left: 32px;
+                    margin-right: 8px;
+                }
+            
+                Gui--PropertyEditor--PropertyEditor,
+                _ {
+                    margin: 0px 17px 17px;
+                    qproperty-headerHidden : true;
+                }
+
+            /* Task View */
+                Gui--TaskView--TaskBox QSint--ActionLabel,
+                _ {
+                    qproperty-iconSize: 0px;
+                    height: 22px;
+                    padding-left: 14px;
+                }
+
+                Gui--TaskView--TaskBox > QSint--TaskHeader,
+                _ {
+                    margin-top: 1px;             
+                }
+                
+                Gui--TaskView--TaskBox > QSint--TaskHeader > QSint--ActionLabel,
+                _ {   
+                    padding-left: -4px;
+                }
+                
+        /* Grid Controls */
+            /* Button */
+                SpreadsheetGui--SheetTableView > QWidget > QPushButton,
+                SpreadsheetGui--SheetTableView > QWidget > QWidget > QPushButton,
+                Gui--PropertyEditor--PropertyEditor > QWidget > QWidget > QPushButton,
+                Gui--PropertyEditor--PropertyEditor > QWidget > QPushButton,
+                _ {
+                    min-width: 48px;
+                    margin: 0px;
+                    border-radius: 3px;
+                    padding: 0px;
+                }
+
+                SpreadsheetGui--SheetTableView > QWidget > QPushButton:focus,
+                SpreadsheetGui--SheetTableView > QWidget > QWidget > QPushButton:focus,
+                Gui--PropertyEditor--PropertyEditor > QWidget > QWidget > QPushButton:focus,
+                Gui--PropertyEditor--PropertyEditor > QWidget > QPushButton:focus,
+                _ {
+                    border-width: 1px;
+                    border-radius: 3px;
+                    padding: 0px;
+                    background-clip: border;
+                }
+
+                SpreadsheetGui--SheetTableView > QWidget > QWidget > QLabel,
+                Gui--PropertyEditor--PropertyEditor > QWidget > QWidget > QLabel,
+                _ {
+                    padding-top: 1px;
+                    margin-left: -1px;
+                    border-left: 2px;
+                    padding-left: 1px;
+                }
+
+            /* Text Box */     
+                SpreadsheetGui--SheetTableView > QWidget > QPlainTextEdit,
+                SpreadsheetGui--SheetTableView > QWidget > QAbstractSpinBox > QLineEdit,
+                Gui--PropertyEditor--PropertyEditor > QWidget > QAbstractSpinBox > QLineEdit,
+                Gui--PropertyEditor--PropertyEditor > QWidget > QLineEdit,
+                _ {
+                    min-width: 48px;
+                    margin: 0px;
+                    border-radius: 3px;
+                    padding: 0px;
+                }
+
+                SpreadsheetGui--SheetTableView > QWidget > QPlainTextEdit:focus,
+                SpreadsheetGui--SheetTableView > QWidget > QAbstractSpinBox > QLineEdit:focus,
+                Gui--PropertyEditor--PropertyEditor > QWidget > QAbstractSpinBox > QLineEdit:focus,
+                Gui--PropertyEditor--PropertyEditor > QWidget > QLineEdit:focus,
+                _ {
+                    padding-bottom: -1px;
+                }
+
+                SpreadsheetGui--SheetTableView > QWidget > QAbstractSpinBox > QLineEdit:focus,
+                Gui--PropertyEditor--PropertyEditor > QWidget > QAbstractSpinBox > QLineEdit:focus,
+                _ {
+                    padding-left: -1px;
+                }
+
+            /* Number Box */
+                SpreadsheetGui--SheetTableView > QWidget > QAbstractSpinBox,
+                Gui--PropertyEditor--PropertyEditor > QWidget > QAbstractSpinBox,
+                _ {
+                    min-width: 52px;
+                    margin: 0px;
+                    border-radius: 3px;
+                    padding: 0px 36px 0px 0px;
+                }
+
+                SpreadsheetGui--SheetTableView > QWidget > QAbstractSpinBox::up-button,
+                Gui--PropertyEditor--PropertyEditor > QWidget > QAbstractSpinBox::up-button,
+                _ {
+                    padding: 0px 3px;
+                    right: 30px;
+                }
+
+                SpreadsheetGui--SheetTableView > QWidget > QAbstractSpinBox:down-button,
+                Gui--PropertyEditor--PropertyEditor > QWidget > QAbstractSpinBox::down-button,
+                _ {
+                    padding: 0px 3px;
+                }
+
+            /* Combo Box */
+                SpreadsheetGui--SheetTableView > QWidget > QComboBox,
+                Gui--PropertyEditor--PropertyEditor > QWidget > QComboBox,
+                _ {
+                    min-width: 48px;
+                    margin: 0px;
+                    border-radius: 3px;
+                    padding: 0px 35px 0px 2px;
+                }
+
+                SpreadsheetGui--SheetTableView > QWidget > QComboBox:focus,
+                Gui--PropertyEditor--PropertyEditor > QWidget > QComboBox:focus,
+                _ {
+                    border-width: 1px;
+                    border-radius: 3px;
+                    padding: 0px 35px 0px 2px;
+                }
+
+                SpreadsheetGui--SheetTableView > QWidget > QComboBox:on,
+                Gui--PropertyEditor--PropertyEditor > QWidget > QComboBox:on,
+                _ {
+                    padding-bottom: -1px;
+                }
+
+                SpreadsheetGui--SheetTableView > QWidget > QComboBox::drop-down,
+                Gui--PropertyEditor--PropertyEditor > QWidget > QComboBox::drop-down,
+                _ {
+                    padding: 0px 5px;
+                    top: 4px;
+                    right: 4px;
+                }
+
+                SpreadsheetGui--SheetTableView > QWidget > QComboBox QAbstractItemView,
+                Gui--PropertyEditor--PropertyEditor > QWidget > QComboBox QAbstractItemView,
+                _ {
+                    padding: 0px -1px 0px;
+                }
+
+        /* Sketcher */
+            /* Constraints List */
+                QListView#listWidgetConstraints::indicator,
+                _ {
+                    width: 16px;
+                    height: 16px;
+                    margin: 0px;
+                    border: 0px;
+                    padding: 0px;
+                }
+
+            /* Panel */
+                QWidget#SketcherGui__TaskSketcherGeneral,
+                QWidget#SketcherGui__TaskSketcherConstrains,
+                QWidget#SketcherGui__TaskSketcherElements,
+                _ {
+                    qproperty-minimumSize: 0px 360px;
+                    qproperty-maximumSize: 16777215px 16777215px;
+                }
+
+            /* Redundant Controls */
+                QWidget#TaskSketcherMessages QWidget#showOriginalColor,
+                QWidget#TaskSketcherMessages QWidget#autoRemoveRedundants,
+                QWidget#SketcherGui__TaskSketcherElements QWidget#Explanation,
+                QWidget#SketcherGui__TaskSketcherElements QWidget#autoSwitchBox,
+                QWidget#SketcherGui__TaskSketcherConstrains QWidget#extendedInformation,
+                QWidget#SketcherGui__TaskSketcherConstrains QWidget#filterInternalAlignment,
+                _ {
+                    max-height: 0px;
+                    margin: 0px;
+                    border: 0px;
+                    padding: 0px;
+                }
+        /* Overlay */
+            /* Button */
+                Gui--OverlaySizeGrip,
+                _ {
+                    min-height: 0px;
+                    min-width: 0px;
+                    max-height: 0px;
+                    max-width: 0px;
+                }
+
+                Gui--OverlayToolButton,
+                _ {
+                    qproperty-icon: url("");
+                    min-height: 16px;
+                    min-width: 32px;
+                    max-height: 16px;
+                    max-width: 32px;
+                    width: 16px;
+                    height: 16px;
+                    border-radius: 3px;
+                    margin-bottom: 2px;
+                }
+
+                Gui--OverlayTabWidget#OverlayTop Gui--OverlayToolButton,
+                Gui--OverlayTabWidget#OverlayBottom Gui--OverlayToolButton,
+                _ {
+                    min-height: 32px;
+                    min-width: 16px;
+                    max-height: 32px;
+                    max-width: 16px;
+                }
+
+            /* Panel */
+                Gui--OverlayTabWidget,
+                _ {
+                    qproperty-enableEffect: 0;
+                }
+
+                Gui--OverlayTabWidget#OverlayTop > Gui--OverlaySplitter,
+                _ {
+                    padding-top: 6px;
+                    padding-left: 107px;
+                    padding-right: 128px;
+                }
+
+                Gui--OverlayTabWidget#OverlayBottom > Gui--OverlaySplitter,
+                _ {
+                    padding-right: 11px;
+                    padding-bottom: 6px;
+                }
+       
+    /* Text */
+        /* Caption */
+            QStatusBar,
+            QStatusBar QLabel,
+            QTabWidget#propertyTab > QTabBar,
+            _ {
+                font-family: "Segoe UI Variable Static Small";
+                font-style: normal;
+                font-weight: normal;
+                font-size: 12px;
+            }
+
+        /* Body */
+            QTabWidget#combiTab > QTabBar,
+            QMainWindow > QTabBar,
+            QMdiArea > QTabBar,
+            * {
+                font-family: "Segoe UI Variable Static Text";
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+            }
+
+        /* Body Strong */
+            QSint--TaskHeader QSint--ActionLabel,
+            _ {
+                font-family: "Segoe UI Variable Static Text";
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+            }
+
+        /* Body Large */
+            QTabBar,
+            QGroupBox,
+            _ {
+                font-family: "Segoe UI Variable Static Text";
+                font-style: normal;
+                font-weight: normal;
+                font-size: 18px;
+            }
+
+        /* Code */
+            Gui--PythonConsole,
+            Gui--DockWnd--ReportOutput,
+            _ {
+                font-family: "Cascadia Code SemiLight";
+            }
+
