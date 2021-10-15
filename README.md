@@ -1,5 +1,7 @@
 # CadWin
 
+![CadWin](Gui/Stylesheets/CadWin/Docs/main.png)
+
 CadWin is a QT style sheet for FreeCAD LinkStage 3 implementing the WinUI 2.7 specification.
 
 Out of the box, this package provides Dark and Light themes with a few accent colors. Most of the work has been focused on the Dark themes, so for now only a dark preset file is provided.

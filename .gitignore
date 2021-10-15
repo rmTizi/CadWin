@@ -32,6 +32,8 @@
 # Stitcher Source
 !/Gui/Stylesheets/CadWin/Stitcher/**
 
+# Docs
+!/Gui/Stylesheets/CadWin/Docs/**
 
 #Ignore thumbnails created by Windows
 Thumbs.db
