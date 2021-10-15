@@ -6,6 +6,7 @@
 
 # Git Ignore
 !.gitignore
+!READMED.md
 
 # Preset Files
 !/Settings/CadWin Dark Preset.FCParam
