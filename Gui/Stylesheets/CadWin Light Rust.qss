@@ -779,6 +779,8 @@
                 Gui--TreePanel > QTreeView::indicator,
                 _ {
                     padding: 0px;
+                    margin-left: -3px;
+                    margin-right: -3px;
                 }
 
                 Gui--TreePanel > QTreeView::indicator:checked,
