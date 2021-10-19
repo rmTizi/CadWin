@@ -312,7 +312,8 @@
                     padding : 6px;
                     margin: 2px;
                     border-radius: 4px;
-                    qproperty-popupMode: InstantPopup;
+                    /* qproperty-popupMode: InstantPopup; */
+                    qproperty-popupMode: DelayedPopup;
                 }
 
                 QToolBar::handle:vertical,
