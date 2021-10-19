@@ -928,6 +928,7 @@
                 SpreadsheetGui--SheetTableView > QWidget > QAbstractSpinBox > QLineEdit,
                 Gui--PropertyEditor--PropertyEditor > QWidget > QAbstractSpinBox > QLineEdit,
                 Gui--PropertyEditor--PropertyEditor > QWidget > QLineEdit,
+                Gui--TreeWidget > QWidget > QLineEdit,
                 _ {
                     min-width: 48px;
                     margin: 0px;
@@ -939,6 +940,7 @@
                 SpreadsheetGui--SheetTableView > QWidget > QAbstractSpinBox > QLineEdit:focus,
                 Gui--PropertyEditor--PropertyEditor > QWidget > QAbstractSpinBox > QLineEdit:focus,
                 Gui--PropertyEditor--PropertyEditor > QWidget > QLineEdit:focus,
+                Gui--TreeWidget > QWidget > QLineEdit:focus,
                 _ {
                     padding-bottom: -1px;
                 }
