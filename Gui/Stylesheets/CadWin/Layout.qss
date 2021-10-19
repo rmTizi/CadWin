@@ -1112,6 +1112,7 @@
             }
 
         /* Body */
+            Gui--TaskView--TaskPanel QGroupBox,
             QTabWidget#combiTab > QTabBar,
             QMainWindow > QTabBar,
             QMdiArea > QTabBar,
