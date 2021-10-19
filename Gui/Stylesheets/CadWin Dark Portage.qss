@@ -653,7 +653,7 @@
             /* Dock Area */
                 QDockWidget,
                 _ {
-                    min-width: 380px;
+                    min-width: 420px;
                     min-height: 140px;
                 }
 
