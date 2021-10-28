@@ -16,11 +16,12 @@ If you use Mac OS, make sure that your issue can be reproduced on Windows or Lin
 
 0) Back up your settings, make copies of your user and system files, export your current preset.
 1) Download and unzip or clone this repository inside your FreeCAD user folder (the Gui and Settings folder must be at the same level than your link.system.cfg and link.user.cfg)
-2) Launch FreeCADLink and make sure you have a file open and preferably the Part Design or Sketcher workbench activated.
-3) Go to ```Tools > Preset Configurations > CadWin Dark Preset```.
-4) **IMPORTANT** Before doing anything else, grab the workbench tool bar and dock it to the left, then close the extra property view on the right.
-5) Restart FreeCAD **DO NOT DO OR CHANGE ANYTHING ELSE BEFORE THIS RESTART OR THINGS WILL BREAK** (Hopefully I'll be able to streamline things in the future)
-6) Enjoy the new look, try the different accents in the Preferences dialog.
+2) If you are not running Windows 11, download and install the Segoe UI Variable fonts from Microsoft : https://aka.ms/SegoeUIVariable 
+3) Launch FreeCADLink and make sure you have a file open and preferably the Part Design or Sketcher workbench activated.
+4) Go to ```Tools > Preset Configurations > CadWin Dark Preset```.
+5) **IMPORTANT** Before doing anything else, grab the workbench tool bar and dock it to the left, then close the extra property view on the right.
+6) Restart FreeCAD **DO NOT DO OR CHANGE ANYTHING ELSE BEFORE THIS RESTART OR THINGS WILL BREAK** (Hopefully I'll be able to streamline things in the future)
+7) Enjoy the new look, try the different accents in the Preferences dialog.
 
 ## Manual install
 
